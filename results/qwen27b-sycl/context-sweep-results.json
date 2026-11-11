@@ -1,0 +1,157 @@
+[
+  {
+    "context": 32768,
+    "log": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/context-32768.server.log",
+    "tests": [
+      {
+        "elapsed_s": 3.0761124350010505,
+        "usage": {
+          "completion_tokens": 192,
+          "prompt_tokens": 42,
+          "total_tokens": 234,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 42,
+          "prompt_ms": 1048.058,
+          "prompt_per_token_ms": 24.953761904761905,
+          "prompt_per_second": 40.07411803545224,
+          "predicted_n": 192,
+          "predicted_ms": 1908.4370000000001,
+          "predicted_per_token_ms": 9.991816753926702,
+          "predicted_per_second": 100.08189948109369,
+          "draft_n": 181,
+          "draft_n_accepted": 165
+        },
+        "finish_reason": "length",
+        "response": "[omitted]",
+        "name": "coding-cold"
+      },
+      {
+        "elapsed_s": 3.114233760001298,
+        "usage": {
+          "completion_tokens": 128,
+          "prompt_tokens": 39,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 39,
+          "prompt_ms": 298.858,
+          "prompt_per_token_ms": 7.663025641025641,
+          "prompt_per_second": 130.49675765748282,
+          "predicted_n": 128,
+          "predicted_ms": 2571.784,
+          "predicted_per_token_ms": 20.250267716535433,
+          "predicted_per_second": 49.3820631903768,
+          "draft_n": 256,
+          "draft_n_accepted": 90
+        },
+        "finish_reason": "length",
+        "response": "[omitted]",
+        "name": "prose-cold"
+      },
+      {
+        "elapsed_s": 2.286025913999765,
+        "usage": {
+          "completion_tokens": 192,
+          "prompt_tokens": 42,
+          "total_tokens": 234,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 42,
+          "prompt_ms": 285.982,
+          "prompt_per_token_ms": 6.809095238095239,
+          "prompt_per_second": 146.86238994062563,
+          "predicted_n": 192,
+          "predicted_ms": 1806.828,
+          "predicted_per_token_ms": 9.459832460732985,
+          "predicted_per_second": 105.71011739911049,
+          "draft_n": 181,
+          "draft_n_accepted": 165
+        },
+        "finish_reason": "length",
+        "response": "[omitted]",
+        "name": "coding-warm"
+      },
+      {
+        "elapsed_s": 2.7911777760000405,
+        "usage": {
+          "completion_tokens": 128,
+          "prompt_tokens": 39,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 39,
+          "prompt_ms": 284.537,
+          "prompt_per_token_ms": 7.295820512820512,
+          "prompt_per_second": 137.06477540706481,
+          "predicted_n": 128,
+          "predicted_ms": 2503.318,
+          "predicted_per_token_ms": 19.71116535433071,
+          "predicted_per_second": 50.73266760355656,
+          "draft_n": 256,
+          "draft_n_accepted": 90
+        },
+        "finish_reason": "length",
+        "response": "[omitted]",
+        "name": "prose-warm"
+      },
+      {
+        "elapsed_s": 65.4437583630006,
+        "usage": {
+          "completion_tokens": 192,
+          "prompt_tokens": 12642,
+          "total_tokens": 12834,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 12642,
+          "prompt_ms": 63224.945,
+          "prompt_per_token_ms": 5.001182170542636,
+          "prompt_per_second": 199.95272435586935,
+          "predicted_n": 192,
+          "predicted_ms": 2171.016,
+          "predicted_per_token_ms": 11.366575916230367,
+          "predicted_per_second": 87.97724199176791,
+          "draft_n": 179,
+          "draft_n_accepted": 165
+        },
+        "finish_reason": "length",
+        "response": "[omitted]",
+        "name": "depth-16k-coding"
+      }
+    ],
+    "ready": true,
+    "startup_s": 85.32298630800142,
+    "server_exit": null,
+    "final_exit": 0
+  },
+  {
+    "context": 65536,
+    "log": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/context-65536.server.log",
+    "tests": [],
+    "ready": true,
+    "startup_s": 73.36245140000028,
+    "server_exit": null,
+    "request_error": "RemoteDisconnected('Remote end closed connection without response')",
+    "final_exit": -6
+  }
+]

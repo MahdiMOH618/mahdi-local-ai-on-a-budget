@@ -1,0 +1,9 @@
+{
+  "elapsed_s": 23.29,
+  "prompt_tokens": 30,
+  "generated_tokens": 64,
+  "prompt_tokens_per_s": 8.331731789333828,
+  "generation_tokens_per_s": 3.24433053239464,
+  "context_length": 163584,
+  "speculative_draft_mtp": true
+}

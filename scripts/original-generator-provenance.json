@@ -1,0 +1,14 @@
+[
+  {
+    "script": "generate_coding_fixtures.py",
+    "source": "prepare-projects.py",
+    "source_sha256": "20afd68368c2a43ba68f56314c45ddc7eb54626eca9bdb17b75c535c70ebe4aa",
+    "adaptation": "Home prefix scrubbed only; reference prompt generator requires local tokenizer/corpus assets not redistributed"
+  },
+  {
+    "script": "freeze_prompt_inputs_reference.py",
+    "source": "freeze-inputs.py",
+    "source_sha256": "e8cf5859263ca29f1e6f2922498ce2a904ba62157ffa1a518cf499fcf1b41f93",
+    "adaptation": "Home prefix scrubbed only; reference prompt generator requires local tokenizer/corpus assets not redistributed"
+  }
+]

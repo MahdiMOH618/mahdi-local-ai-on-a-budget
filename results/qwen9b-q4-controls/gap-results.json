@@ -1,0 +1,138 @@
+[
+  {
+    "wall_seconds": 2.0900636019978265,
+    "response": "[omitted]",
+    "case": "separate-images",
+    "true_shift_mm": 0,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.604152638999949,
+    "response": "[omitted]",
+    "case": "red-green-overlay",
+    "true_shift_mm": 0,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 1.398082689000148,
+    "response": "[omitted]",
+    "case": "numeric-landmark-control",
+    "true_shift_mm": 0,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.685963471998548,
+    "response": "[omitted]",
+    "case": "separate-images",
+    "true_shift_mm": 10,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.651075376001245,
+    "response": "[omitted]",
+    "case": "red-green-overlay",
+    "true_shift_mm": 10,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.7060615829977905,
+    "response": "[omitted]",
+    "case": "upscaled-side-by-side",
+    "true_shift_mm": 10,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 18.220802671003185,
+    "response": "[omitted]",
+    "case": "separate-images-thinking",
+    "true_shift_mm": 10,
+    "thinking": true,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.614473061999888,
+    "response": "[omitted]",
+    "case": "numeric-landmark-control",
+    "true_shift_mm": 10,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.794461813002272,
+    "response": "[omitted]",
+    "case": "separate-images",
+    "true_shift_mm": 20,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.930362803999742,
+    "response": "[omitted]",
+    "case": "red-green-overlay",
+    "true_shift_mm": 20,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.5179199750018597,
+    "response": "[omitted]",
+    "case": "upscaled-side-by-side",
+    "true_shift_mm": 20,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.5203051490025246,
+    "response": "[omitted]",
+    "case": "numeric-landmark-control",
+    "true_shift_mm": 20,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 4.253313033001177,
+    "response": "[omitted]",
+    "case": "separate-images",
+    "true_shift_mm": 40,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.485732838998956,
+    "response": "[omitted]",
+    "case": "red-green-overlay",
+    "true_shift_mm": 40,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 2.4921811089989205,
+    "response": "[omitted]",
+    "case": "numeric-landmark-control",
+    "true_shift_mm": 40,
+    "thinking": false,
+    "seed": 42
+  },
+  {
+    "wall_seconds": 1.7605139430015697,
+    "response": "[omitted]",
+    "case": "separate-images-repeat",
+    "true_shift_mm": 20,
+    "thinking": false,
+    "seed": 43
+  },
+  {
+    "wall_seconds": 1.8803777280008944,
+    "response": "[omitted]",
+    "case": "separate-images-repeat",
+    "true_shift_mm": 20,
+    "thinking": false,
+    "seed": 44
+  }
+]

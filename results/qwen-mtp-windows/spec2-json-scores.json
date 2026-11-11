@@ -1,0 +1,354 @@
+[
+  {
+    "category": "T5",
+    "id": "lookup",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "ALPHA"
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "ALPHA"
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "multiply",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "multiply",
+        {
+          "a": 13,
+          "b": 17
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "multiply",
+        {
+          "a": 13,
+          "b": 17
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "read",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "read_note",
+        {
+          "name": "colour.txt"
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "read_note",
+        {
+          "name": "colour.txt"
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "write",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "write_note",
+        {
+          "name": "receipt.txt",
+          "text": "[omitted]"
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "write_note",
+        {
+          "name": "receipt.txt",
+          "text": "[omitted]"
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "lookup-chain",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "BETA"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 9,
+          "b": 4
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "BETA"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 9,
+          "b": 4
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "read-chain",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "read_note",
+        {
+          "name": "factor.txt"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 12,
+          "b": 8
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "read_note",
+        {
+          "name": "factor.txt"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 12,
+          "b": 8
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "write-read",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "write_note",
+        {
+          "name": "ticket.txt",
+          "text": "[omitted]"
+        }
+      ],
+      [
+        "read_note",
+        {
+          "name": "ticket.txt"
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "write_note",
+        {
+          "name": "ticket.txt",
+          "text": "[omitted]"
+        }
+      ],
+      [
+        "read_note",
+        {
+          "name": "ticket.txt"
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "lookup-chain-2",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "GAMMA"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 5,
+          "b": 11
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "GAMMA"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 5,
+          "b": 11
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "no-tool-arithmetic",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [],
+    "actual_calls": [],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "no-tool-copy",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [],
+    "actual_calls": [],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  }
+]

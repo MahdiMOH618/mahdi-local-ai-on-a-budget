@@ -1,0 +1,306 @@
+{
+  "label": "Bolt-U",
+  "requests": 252,
+  "scores": 117,
+  "categories": {
+    "T3": {
+      "passed": 17,
+      "total": 18
+    },
+    "T4": {
+      "passed": 30,
+      "total": 30
+    },
+    "T5": {
+      "passed": 28,
+      "total": 30
+    },
+    "T6": {
+      "passed": 12,
+      "total": 12
+    },
+    "T7": {
+      "passed": 16,
+      "total": 16
+    },
+    "JSON": {
+      "passed": 26,
+      "total": 30
+    }
+  },
+  "speed": {
+    "1000": {
+      "cold": {
+        "repetitions": 3,
+        "input_tps": 207.5605594673082,
+        "output_tps": 28.68047370488859,
+        "local_TTFT_s": 5.085548131959513,
+        "cached_tokens": 0,
+        "input_tokens": 1031,
+        "output_tokens": 512,
+        "output_range": [
+          28.676725144925488,
+          28.700543305216346
+        ]
+      },
+      "cached": {
+        "repetitions": 3,
+        "input_tps": 40.12909220276304,
+        "output_tps": 28.640616036671194,
+        "local_TTFT_s": 0.6598615960101597,
+        "cached_tokens": 1542,
+        "input_tokens": 1568,
+        "output_tokens": 512,
+        "output_range": [
+          28.574539257922012,
+          28.65231027054117
+        ]
+      }
+    },
+    "32000": {
+      "cold": {
+        "repetitions": 3,
+        "input_tps": 233.58150952888775,
+        "output_tps": 26.686004532756257,
+        "local_TTFT_s": 139.5802671519923,
+        "cached_tokens": 0,
+        "input_tokens": 32533,
+        "output_tokens": 512,
+        "output_range": [
+          26.543089797454407,
+          26.68658429372832
+        ]
+      },
+      "cached": {
+        "repetitions": 3,
+        "input_tps": 38.78223773511732,
+        "output_tps": 26.666346600927948,
+        "local_TTFT_s": 0.7471597710391507,
+        "cached_tokens": 33044,
+        "input_tokens": 33070,
+        "output_tokens": 512,
+        "output_range": [
+          26.53184267645337,
+          26.69789745959318
+        ]
+      }
+    },
+    "64000": {
+      "cold": {
+        "repetitions": 1,
+        "input_tps": 230.23921167339992,
+        "output_tps": 24.833628056498398,
+        "local_TTFT_s": 282.8475619580131,
+        "cached_tokens": 0,
+        "input_tokens": 65040,
+        "output_tokens": 512,
+        "output_range": [
+          24.833628056498398,
+          24.833628056498398
+        ]
+      },
+      "cached": {
+        "repetitions": 1,
+        "input_tps": 37.24949713178872,
+        "output_tps": 24.820193242933104,
+        "local_TTFT_s": 0.8311263069626875,
+        "cached_tokens": 65551,
+        "input_tokens": 65577,
+        "output_tokens": 512,
+        "output_range": [
+          24.820193242933104,
+          24.820193242933104
+        ]
+      }
+    },
+    "120000": {
+      "cold": {
+        "repetitions": 1,
+        "input_tps": 224.09969882254012,
+        "output_tps": 22.05401516004223,
+        "local_TTFT_s": 542.2202180469758,
+        "cached_tokens": 0,
+        "input_tokens": 121352,
+        "output_tokens": 512,
+        "output_range": [
+          22.05401516004223,
+          22.05401516004223
+        ]
+      },
+      "cached": {
+        "repetitions": 1,
+        "input_tps": 34.52956128864322,
+        "output_tps": 22.10424161363559,
+        "local_TTFT_s": 0.992799271014519,
+        "cached_tokens": 121863,
+        "input_tokens": 121889,
+        "output_tokens": 512,
+        "output_range": [
+          22.10424161363559,
+          22.10424161363559
+        ]
+      }
+    }
+  },
+  "retrieval": {
+    "matching_haystack": {
+      "raw_facts": 15,
+      "normalized_facts": 15,
+      "fact_total": 15,
+      "raw_multi_hop": 3,
+      "normalized_multi_hop": 3,
+      "cases": 3,
+      "raw_cases_passed": 3,
+      "normalized_cases_passed": 3,
+      "detail": [
+        {
+          "id": "retrieval-0",
+          "rep": 0,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-0",
+          "rep": 1,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-0",
+          "rep": 2,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        }
+      ]
+    },
+    "all_historical_haystacks": {
+      "raw_facts": 15,
+      "normalized_facts": 15,
+      "fact_total": 15,
+      "raw_multi_hop": 3,
+      "normalized_multi_hop": 3,
+      "cases": 3,
+      "raw_cases_passed": 3,
+      "normalized_cases_passed": 3,
+      "detail": [
+        {
+          "id": "retrieval-0",
+          "rep": 0,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-0",
+          "rep": 1,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-0",
+          "rep": 2,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        }
+      ]
+    }
+  },
+  "resource_peaks": {
+    "VRAM_GiB": {
+      "0": 13.602653503417969,
+      "1": 17.08635711669922
+    },
+    "used_RAM_GiB": 17.270984649658203,
+    "cpu_C": 70.0,
+    "gpu_C": 67.0
+  }
+}

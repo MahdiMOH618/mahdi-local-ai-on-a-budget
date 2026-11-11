@@ -1,0 +1,65 @@
+[
+  {
+    "case": "coding",
+    "elapsed_s": 3.306273410000358,
+    "completion_tokens": 192,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 42,
+      "prompt_ms": 1214.027,
+      "prompt_per_token_ms": 28.905404761904762,
+      "prompt_per_second": 34.595606193272474,
+      "predicted_n": 192,
+      "predicted_ms": 1934.856,
+      "predicted_per_token_ms": 10.13013612565445,
+      "predicted_per_second": 98.71535659501275,
+      "draft_n": 177,
+      "draft_n_accepted": 165
+    },
+    "finish_reason": "length",
+    "response": "[omitted]",
+    "end_to_end_tokens_per_s": 58.071422471978565
+  },
+  {
+    "case": "prose",
+    "elapsed_s": 3.358076283999253,
+    "completion_tokens": 128,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 39,
+      "prompt_ms": 294.242,
+      "prompt_per_token_ms": 7.544666666666667,
+      "prompt_per_second": 132.54396041353715,
+      "predicted_n": 128,
+      "predicted_ms": 2823.817,
+      "predicted_per_token_ms": 22.234779527559056,
+      "predicted_per_second": 44.97458581770702,
+      "draft_n": 188,
+      "draft_n_accepted": 85
+    },
+    "finish_reason": "length",
+    "response": "[omitted]",
+    "end_to_end_tokens_per_s": 38.11706142886076
+  },
+  {
+    "case": "math",
+    "elapsed_s": 1.6951854519993503,
+    "completion_tokens": 96,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 46,
+      "prompt_ms": 298.005,
+      "prompt_per_token_ms": 6.478369565217391,
+      "prompt_per_second": 154.35982617741314,
+      "predicted_n": 96,
+      "predicted_ms": 1174.959,
+      "predicted_per_token_ms": 12.367989473684212,
+      "predicted_per_second": 80.85388511428908,
+      "draft_n": 95,
+      "draft_n_accepted": 78
+    },
+    "finish_reason": "length",
+    "response": "[omitted]",
+    "end_to_end_tokens_per_s": 56.630972078467785
+  }
+]

@@ -1,0 +1,918 @@
+[
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 7.286033210002643,
+    "start_time": 1793337486.5217118,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C041",
+    "category": "tool-use",
+    "policy": "native4096",
+    "elapsed_seconds": 5.70369286800269,
+    "start_time": 1793337493.8122864,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C016",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 5.925488478998886,
+    "start_time": 1793337499.521446,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C019",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 5.73948089699843,
+    "start_time": 1793337505.4521396,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C037",
+    "category": "14-insufficient",
+    "policy": "native4096",
+    "elapsed_seconds": 8.389112637996732,
+    "start_time": 1793337511.200299,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C020",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 5.940802217002783,
+    "start_time": 1793337519.5941684,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C009",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 6.032185500000196,
+    "start_time": 1793337525.539722,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C004",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 6.03876343400043,
+    "start_time": 1793337531.5765285,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "policy": "native4096",
+    "elapsed_seconds": 4.9032660059965565,
+    "start_time": 1793337537.6198623,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "scale_factor": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C013",
+    "category": "4-coverage",
+    "policy": "native4096",
+    "elapsed_seconds": 5.705307341995649,
+    "start_time": 1793337542.52921,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 6.037476946003153,
+    "start_time": 1793337548.2407455,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 5,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C025",
+    "category": "8-scaling",
+    "policy": "native4096",
+    "elapsed_seconds": 4.419213440996828,
+    "start_time": 1793337554.282969,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C032",
+    "category": "11-reconstruction",
+    "policy": "native4096",
+    "elapsed_seconds": 7.158933786005946,
+    "start_time": 1793337558.7072423,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": 2,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C023",
+    "category": "7-conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 4.980270367006597,
+    "start_time": 1793337565.871021,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C002",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 6.188677653997729,
+    "start_time": 1793337570.856275,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C031",
+    "category": "11-reconstruction",
+    "policy": "native4096",
+    "elapsed_seconds": 8.285680435001268,
+    "start_time": 1793337577.0500104,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C029",
+    "category": "10-provenance",
+    "policy": "native4096",
+    "elapsed_seconds": 4.951843648996146,
+    "start_time": 1793337585.3427706,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C033",
+    "category": "12-display",
+    "policy": "native4096",
+    "elapsed_seconds": 6.008919872998376,
+    "start_time": 1793337590.3004405,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C040",
+    "category": "capacity",
+    "policy": "native4096",
+    "elapsed_seconds": 10.140053836999869,
+    "start_time": 1793337596.3150697,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C012",
+    "category": "3-orientation",
+    "policy": "native4096",
+    "elapsed_seconds": 4.190228767998633,
+    "start_time": 1793337606.4605362,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C026",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 6.082984516004217,
+    "start_time": 1793337610.656255,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C030",
+    "category": "10-provenance",
+    "policy": "native4096",
+    "elapsed_seconds": 5.456239618994005,
+    "start_time": 1793337616.7444513,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C001",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 6.13673863299482,
+    "start_time": 1793337622.2063963,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C039",
+    "category": "15-repeatability",
+    "policy": "native4096",
+    "elapsed_seconds": 6.128503363004711,
+    "start_time": 1793337628.3497999,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C006",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 6.061207211998408,
+    "start_time": 1793337634.4837787,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -40,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 4.254639357000997,
+    "start_time": 1793337640.5504673,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "required_translation_mm": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C038",
+    "category": "15-repeatability",
+    "policy": "native4096",
+    "elapsed_seconds": 6.042686308996053,
+    "start_time": 1793337644.810682,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C005",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 6.033134923003672,
+    "start_time": 1793337650.8588548,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 40,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C014",
+    "category": "4-coverage",
+    "policy": "native4096",
+    "elapsed_seconds": 6.192713822994847,
+    "start_time": 1793337656.9023702,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C010",
+    "category": "13-correct-control",
+    "policy": "native4096",
+    "elapsed_seconds": 6.061274578998564,
+    "start_time": 1793337663.1007254,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C011",
+    "category": "3-orientation",
+    "policy": "native4096",
+    "elapsed_seconds": 5.974650402997213,
+    "start_time": 1793337669.1677125,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C008",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 6.101761975005502,
+    "start_time": 1793337675.1529427,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C018",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 5.7558186990063405,
+    "start_time": 1793337681.2606514,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C017",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 5.743119660997763,
+    "start_time": 1793337687.0224717,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C034",
+    "category": "12-display",
+    "policy": "native4096",
+    "elapsed_seconds": 6.430109914006607,
+    "start_time": 1793337692.7716842,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C003",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 5.9867891460016835,
+    "start_time": 1793337699.2077746,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C027",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 6.169674030999886,
+    "start_time": 1793337705.2005315,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C022",
+    "category": "7-conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 4.7968705739986035,
+    "start_time": 1793337711.3762405,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C036",
+    "category": "14-insufficient",
+    "policy": "native4096",
+    "elapsed_seconds": 6.89388531500299,
+    "start_time": 1793337716.179595,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C015",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 5.864783429999079,
+    "start_time": 1793337723.0797791,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma-4b-it-sftctiqa-q8",
+    "case_id": "C035",
+    "category": "13-correct-control",
+    "policy": "native4096",
+    "elapsed_seconds": 5.975627722000354,
+    "start_time": 1793337728.9507434,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  }
+]

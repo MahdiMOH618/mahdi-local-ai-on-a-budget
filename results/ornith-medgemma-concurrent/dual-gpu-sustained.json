@@ -1,0 +1,38 @@
+[
+  {
+    "port": "[omitted]",
+    "wall_s": 6.7958239559999924,
+    "response": "[omitted]",
+    "repeat": 0
+  },
+  {
+    "port": "[omitted]",
+    "wall_s": 9.846385586999986,
+    "response": "[omitted]",
+    "repeat": 0
+  },
+  {
+    "port": "[omitted]",
+    "wall_s": 6.822126714000007,
+    "response": "[omitted]",
+    "repeat": 1
+  },
+  {
+    "port": "[omitted]",
+    "wall_s": 9.287573745000003,
+    "response": "[omitted]",
+    "repeat": 1
+  },
+  {
+    "port": "[omitted]",
+    "wall_s": 6.706129747999995,
+    "response": "[omitted]",
+    "repeat": 2
+  },
+  {
+    "port": "[omitted]",
+    "wall_s": 9.092485347999968,
+    "response": "[omitted]",
+    "repeat": 2
+  }
+]

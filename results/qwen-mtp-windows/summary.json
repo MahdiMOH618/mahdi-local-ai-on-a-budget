@@ -1,0 +1,273 @@
+{
+  "controller": {
+    "completed": true,
+    "permanent_config_changes": false,
+    "scope": "MTP requested spec2/spec3/spec4, 1K/32K cold, 3 seeds, 512 output; fastest gets ten frozen JSON checks",
+    "fastest": "spec2",
+    "speeds": {
+      "spec2": {
+        "1K_output_tps_median": 59.1,
+        "32K_output_tps_median": 51.1,
+        "geometric_mean": 54.95461764037668
+      },
+      "spec3": {
+        "1K_output_tps_median": 58.3,
+        "32K_output_tps_median": 50.6,
+        "geometric_mean": 54.31371834076544
+      },
+      "spec4": {
+        "1K_output_tps_median": 56.9,
+        "32K_output_tps_median": 48.7,
+        "geometric_mean": 52.640573705080385
+      }
+    },
+    "json": {
+      "tools": 10,
+      "correct_answers": 10,
+      "json_only": 10,
+      "clean_and_correct": 10,
+      "total": 10,
+      "json_checks_share_the_frozen_tool_cases": true
+    },
+    "restored": true
+  },
+  "modes": {
+    "spec2": {
+      "requested_spec": 2,
+      "engine": {
+        "model": "huihui-IQ2_XS",
+        "max_context": 131072,
+        "images": false,
+        "version": "0.1.56",
+        "context": 131072,
+        "kv": "int8",
+        "kv_resident": 0,
+        "expert_slots": 24576,
+        "expert_cache_mib": 33812,
+        "expert_slots_primary": 12288,
+        "expert_cache_primary_mib": 16575,
+        "spec": 4,
+        "mtp_max": 2,
+        "lookup": 3,
+        "vram_free_mib": 2916,
+        "cvec": 0,
+        "arena_mib": 33812,
+        "pool_workers": 3,
+        "pcie_frac": "0.16",
+        "spec_min_p": "0.50",
+        "conversation_cache_mib": 0,
+        "conversation_cache_slots": 4,
+        "conversation_cache_min_free_mib": 2560,
+        "tail_role_token": -1,
+        "vram_elastic": 0,
+        "engine": "0.1.56",
+        "drafting": "mtp",
+        "drafting_note": ""
+      },
+      "completed_requests": 6,
+      "sizes": {
+        "1000": {
+          "output_tps": 59.1,
+          "input_tps": 666.3,
+          "local_TTFT_s": 1.6440556640154682,
+          "output_tokens": 512,
+          "repetitions": 3,
+          "output_tps_range": [
+            58.6,
+            60.5
+          ],
+          "drafts_offered": 720,
+          "drafts_accepted": 575,
+          "acceptance_rate": 0.7986111111111112,
+          "all_cold": true
+        },
+        "32000": {
+          "output_tps": 51.1,
+          "input_tps": 1002.8,
+          "local_TTFT_s": 32.06505515699973,
+          "output_tokens": 512,
+          "repetitions": 3,
+          "output_tps_range": [
+            50.0,
+            52.5
+          ],
+          "drafts_offered": 694,
+          "drafts_accepted": 521,
+          "acceptance_rate": 0.7507204610951008,
+          "all_cold": true
+        }
+      },
+      "peak_VRAM_GiB": {
+        "0": 21.36774444580078,
+        "1": 21.68124771118164
+      },
+      "peak_used_RAM_GiB": 7.2420654296875,
+      "peak_cpu_C": 64.0,
+      "peak_gpu_C": 68.0,
+      "json": {
+        "tools": 10,
+        "correct_answers": 10,
+        "json_only": 10,
+        "clean_and_correct": 10,
+        "total": 10,
+        "json_checks_share_the_frozen_tool_cases": true
+      }
+    },
+    "spec3": {
+      "requested_spec": 3,
+      "engine": {
+        "model": "huihui-IQ2_XS",
+        "max_context": 131072,
+        "images": false,
+        "version": "0.1.56",
+        "context": 131072,
+        "kv": "int8",
+        "kv_resident": 0,
+        "expert_slots": 24576,
+        "expert_cache_mib": 33812,
+        "expert_slots_primary": 12288,
+        "expert_cache_primary_mib": 16575,
+        "spec": 5,
+        "mtp_max": 3,
+        "lookup": 3,
+        "vram_free_mib": 2905,
+        "cvec": 0,
+        "arena_mib": 33812,
+        "pool_workers": 3,
+        "pcie_frac": "0.16",
+        "spec_min_p": "0.50",
+        "conversation_cache_mib": 0,
+        "conversation_cache_slots": 4,
+        "conversation_cache_min_free_mib": 2560,
+        "tail_role_token": -1,
+        "vram_elastic": 0,
+        "engine": "0.1.56",
+        "drafting": "mtp",
+        "drafting_note": ""
+      },
+      "completed_requests": 6,
+      "sizes": {
+        "1000": {
+          "output_tps": 58.3,
+          "input_tps": 664.1,
+          "local_TTFT_s": 1.6497547369799577,
+          "output_tokens": 512,
+          "repetitions": 3,
+          "output_tps_range": [
+            57.9,
+            59.8
+          ],
+          "drafts_offered": 976,
+          "drafts_accepted": 726,
+          "acceptance_rate": 0.7438524590163934,
+          "all_cold": true
+        },
+        "32000": {
+          "output_tps": 50.6,
+          "input_tps": 1005.7,
+          "local_TTFT_s": 31.9750816829619,
+          "output_tokens": 512,
+          "repetitions": 3,
+          "output_tps_range": [
+            49.9,
+            51.6
+          ],
+          "drafts_offered": 966,
+          "drafts_accepted": 679,
+          "acceptance_rate": 0.7028985507246377,
+          "all_cold": true
+        }
+      },
+      "peak_VRAM_GiB": {
+        "0": 21.384105682373047,
+        "1": 21.697532653808594
+      },
+      "peak_used_RAM_GiB": 7.2894134521484375,
+      "peak_cpu_C": 62.0,
+      "peak_gpu_C": 70.0,
+      "json": null
+    },
+    "spec4": {
+      "requested_spec": 4,
+      "engine": {
+        "model": "huihui-IQ2_XS",
+        "max_context": 131072,
+        "images": false,
+        "version": "0.1.56",
+        "context": 131072,
+        "kv": "int8",
+        "kv_resident": 0,
+        "expert_slots": 24576,
+        "expert_cache_mib": 33812,
+        "expert_slots_primary": 12288,
+        "expert_cache_primary_mib": 16575,
+        "spec": 6,
+        "mtp_max": 4,
+        "lookup": 3,
+        "vram_free_mib": 2893,
+        "cvec": 0,
+        "arena_mib": 33812,
+        "pool_workers": 3,
+        "pcie_frac": "0.16",
+        "spec_min_p": "0.50",
+        "conversation_cache_mib": 0,
+        "conversation_cache_slots": 4,
+        "conversation_cache_min_free_mib": 2560,
+        "tail_role_token": -1,
+        "vram_elastic": 0,
+        "engine": "0.1.56",
+        "drafting": "mtp",
+        "drafting_note": ""
+      },
+      "completed_requests": 6,
+      "sizes": {
+        "1000": {
+          "output_tps": 56.9,
+          "input_tps": 661.4,
+          "local_TTFT_s": 1.656186765001621,
+          "output_tokens": 512,
+          "repetitions": 3,
+          "output_tps_range": [
+            56.2,
+            58.5
+          ],
+          "drafts_offered": 1158,
+          "drafts_accepted": 800,
+          "acceptance_rate": 0.690846286701209,
+          "all_cold": true
+        },
+        "32000": {
+          "output_tps": 48.7,
+          "input_tps": 1006.6,
+          "local_TTFT_s": 31.950951201026328,
+          "output_tokens": 512,
+          "repetitions": 3,
+          "output_tps_range": [
+            47.8,
+            50.0
+          ],
+          "drafts_offered": 1140,
+          "drafts_accepted": 739,
+          "acceptance_rate": 0.6482456140350877,
+          "all_cold": true
+        }
+      },
+      "peak_VRAM_GiB": {
+        "0": 21.400524139404297,
+        "1": 21.71384048461914
+      },
+      "peak_used_RAM_GiB": 7.314952850341797,
+      "peak_cpu_C": 65.0,
+      "peak_gpu_C": 70.0,
+      "json": null
+    }
+  },
+  "restoration": "[omitted]",
+  "sampling": {
+    "temperature": 0.2,
+    "top_p": 0.95,
+    "top_k": 40,
+    "min_p": 0,
+    "reasoning_effort": "high"
+  }
+}

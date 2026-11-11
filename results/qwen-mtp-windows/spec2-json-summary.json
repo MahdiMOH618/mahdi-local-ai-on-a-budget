@@ -1,0 +1,8 @@
+{
+  "tools": 10,
+  "correct_answers": 10,
+  "json_only": 10,
+  "clean_and_correct": 10,
+  "total": 10,
+  "json_checks_share_the_frozen_tool_cases": true
+}

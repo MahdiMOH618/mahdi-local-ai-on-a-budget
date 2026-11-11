@@ -1,0 +1,15 @@
+{
+  "binary": "~/bench-ripple-vs-qwen/backend/build-vulkan/bin/llama-server",
+  "binary_sha256": "f96af95a4135c11e5bc96a7d7c62312f1d5b24aec62e7a21d51ed1c342da7908",
+  "commit": "7592b61d3b53ca5b39a25a03508fa1246b78c579",
+  "SYCL_previous_commit": "459ab1cdd3c566168c814b6f50cb1a7e6eb79914",
+  "backend": "Vulkan",
+  "devices": [
+    "Vulkan1",
+    "Vulkan2"
+  ],
+  "device_names": [
+    "Intel Arc Pro B60",
+    "Intel Arc Pro B60"
+  ]
+}

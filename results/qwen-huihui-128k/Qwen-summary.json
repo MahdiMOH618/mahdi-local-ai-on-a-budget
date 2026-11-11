@@ -1,0 +1,432 @@
+{
+  "label": "Qwen",
+  "requests": 309,
+  "scores": 159,
+  "categories": {
+    "T3": {
+      "passed": 18,
+      "total": 18
+    },
+    "T4": {
+      "passed": 30,
+      "total": 30
+    },
+    "T5": {
+      "passed": 30,
+      "total": 30
+    },
+    "T6": {
+      "passed": 12,
+      "total": 12
+    },
+    "T7": {
+      "passed": 46,
+      "total": 48
+    },
+    "JSON": {
+      "passed": 30,
+      "total": 30
+    }
+  },
+  "speed": {
+    "1000": {
+      "cold": {
+        "repetitions": 3,
+        "input_tps": 663.3,
+        "output_tps": 59.2,
+        "local_TTFT_s": 1.6541507639922202,
+        "cached_tokens": 0,
+        "input_tokens": 1075,
+        "output_tokens": 512,
+        "output_range": [
+          58.8,
+          60.7
+        ]
+      },
+      "cached": {
+        "repetitions": 3,
+        "input_tps": 80.4,
+        "output_tps": 58.5,
+        "local_TTFT_s": 0.27858756302157417,
+        "cached_tokens": 1070,
+        "input_tokens": 1090,
+        "output_tokens": 327,
+        "output_range": [
+          55.5,
+          60.1
+        ]
+      }
+    },
+    "32000": {
+      "cold": {
+        "repetitions": 3,
+        "input_tps": 1009.3,
+        "output_tps": 51.1,
+        "local_TTFT_s": 31.86443615000462,
+        "cached_tokens": 0,
+        "input_tokens": 32099,
+        "output_tokens": 512,
+        "output_range": [
+          50.0,
+          52.4
+        ]
+      },
+      "cached": {
+        "repetitions": 3,
+        "input_tps": 91.6,
+        "output_tps": 53.7,
+        "local_TTFT_s": 0.28909525903873146,
+        "cached_tokens": 32610,
+        "input_tokens": 32633,
+        "output_tokens": 406,
+        "output_range": [
+          53.0,
+          56.7
+        ]
+      }
+    },
+    "64000": {
+      "cold": {
+        "repetitions": 3,
+        "input_tps": 988.0,
+        "output_tps": 51.1,
+        "local_TTFT_s": 64.95898055302678,
+        "cached_tokens": 0,
+        "input_tokens": 64099,
+        "output_tokens": 512,
+        "output_range": [
+          50.2,
+          51.6
+        ]
+      },
+      "cached": {
+        "repetitions": 3,
+        "input_tps": 76.0,
+        "output_tps": 49.5,
+        "local_TTFT_s": 0.3460584220010787,
+        "cached_tokens": 64094,
+        "input_tokens": 64114,
+        "output_tokens": 512,
+        "output_range": [
+          46.9,
+          53.3
+        ]
+      }
+    },
+    "120000": {
+      "cold": {
+        "repetitions": 3,
+        "input_tps": 971.1,
+        "output_tps": 52.8,
+        "local_TTFT_s": 123.83255668502534,
+        "cached_tokens": 0,
+        "input_tokens": 120126,
+        "output_tokens": 512,
+        "output_range": [
+          51.7,
+          53.4
+        ]
+      },
+      "cached": {
+        "repetitions": 3,
+        "input_tps": 74.0,
+        "output_tps": 50.0,
+        "local_TTFT_s": 0.40431348799029365,
+        "cached_tokens": 120121,
+        "input_tokens": 120141,
+        "output_tokens": 493,
+        "output_range": [
+          47.2,
+          51.8
+        ]
+      }
+    }
+  },
+  "retrieval": {
+    "matching_haystack": {
+      "raw_facts": 10,
+      "normalized_facts": 15,
+      "fact_total": 15,
+      "raw_multi_hop": 3,
+      "normalized_multi_hop": 3,
+      "cases": 3,
+      "raw_cases_passed": 2,
+      "normalized_cases_passed": 3,
+      "detail": [
+        {
+          "id": "retrieval-0",
+          "rep": 0,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-0",
+          "rep": 1,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": false,
+            "fact_2": false,
+            "fact_3": false,
+            "fact_4": false,
+            "fact_5": false,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-0",
+          "rep": 2,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        }
+      ]
+    },
+    "all_historical_haystacks": {
+      "raw_facts": 40,
+      "normalized_facts": 45,
+      "fact_total": 45,
+      "raw_multi_hop": 9,
+      "normalized_multi_hop": 9,
+      "cases": 9,
+      "raw_cases_passed": 8,
+      "normalized_cases_passed": 9,
+      "detail": [
+        {
+          "id": "retrieval-0",
+          "rep": 0,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-1",
+          "rep": 0,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-2",
+          "rep": 0,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-0",
+          "rep": 1,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": false,
+            "fact_2": false,
+            "fact_3": false,
+            "fact_4": false,
+            "fact_5": false,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-1",
+          "rep": 1,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-2",
+          "rep": 1,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-0",
+          "rep": 2,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-1",
+          "rep": 2,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        },
+        {
+          "id": "retrieval-2",
+          "rep": 2,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        }
+      ]
+    }
+  },
+  "resource_peaks": {
+    "VRAM_GiB": {
+      "0": 21.377849578857422,
+      "1": 21.69116973876953
+    },
+    "used_RAM_GiB": 7.830474853515625,
+    "cpu_C": 66.0,
+    "gpu_C": 72.0
+  }
+}

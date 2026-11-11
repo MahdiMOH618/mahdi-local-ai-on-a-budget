@@ -1,0 +1,72 @@
+[
+  {
+    "model": "ornith",
+    "vision": false,
+    "wall_seconds": 5.897787378000004,
+    "response": "[omitted]",
+    "phase": "warmup"
+  },
+  {
+    "model": "medgemma",
+    "vision": true,
+    "wall_seconds": 6.852608143999987,
+    "response": "[omitted]",
+    "phase": "warmup"
+  },
+  {
+    "model": "ornith",
+    "vision": false,
+    "wall_seconds": 3.631446412999992,
+    "response": "[omitted]",
+    "phase": "alone"
+  },
+  {
+    "model": "medgemma",
+    "vision": true,
+    "wall_seconds": 2.4721452029999966,
+    "response": "[omitted]",
+    "phase": "alone"
+  },
+  {
+    "model": "ornith",
+    "vision": false,
+    "wall_seconds": 3.5461321129999988,
+    "response": "[omitted]",
+    "phase": "simultaneous-1"
+  },
+  {
+    "model": "medgemma",
+    "vision": true,
+    "wall_seconds": 2.4609649880000006,
+    "response": "[omitted]",
+    "phase": "simultaneous-1"
+  },
+  {
+    "model": "ornith",
+    "vision": false,
+    "wall_seconds": 3.5068871059999935,
+    "response": "[omitted]",
+    "phase": "simultaneous-2"
+  },
+  {
+    "model": "medgemma",
+    "vision": true,
+    "wall_seconds": 2.46212584700001,
+    "response": "[omitted]",
+    "phase": "simultaneous-2"
+  },
+  {
+    "model": "ornith",
+    "vision": false,
+    "wall_seconds": 3.4785865339999873,
+    "response": "[omitted]",
+    "phase": "simultaneous-3"
+  },
+  {
+    "model": "medgemma",
+    "vision": true,
+    "wall_seconds": 2.4676110179999853,
+    "response": "[omitted]",
+    "phase": "simultaneous-3"
+  }
+]

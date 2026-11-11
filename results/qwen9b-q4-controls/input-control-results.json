@@ -1,0 +1,32 @@
+[
+  {
+    "wall_seconds": 0.8398505060031312,
+    "response": "[omitted]",
+    "case": "red-then-blue"
+  },
+  {
+    "wall_seconds": 0.7716674410003179,
+    "response": "[omitted]",
+    "case": "blue-then-red"
+  },
+  {
+    "wall_seconds": 3.5439192220001132,
+    "response": "[omitted]",
+    "case": "phantom-then-black"
+  },
+  {
+    "wall_seconds": 11.695965664999676,
+    "response": "[omitted]",
+    "case": "large-displacement"
+  },
+  {
+    "wall_seconds": 5.691157927001768,
+    "response": "[omitted]",
+    "case": "single-left-disk"
+  },
+  {
+    "wall_seconds": 2.4649556609983847,
+    "response": "[omitted]",
+    "case": "single-right-disk"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "coding",
+    "thinking": false,
+    "wall_seconds": 4.528,
+    "response": "[omitted]"
+  },
+  {
+    "name": "prose",
+    "thinking": false,
+    "wall_seconds": 3.189,
+    "response": "[omitted]"
+  },
+  {
+    "name": "math",
+    "thinking": false,
+    "wall_seconds": 1.736,
+    "response": "[omitted]"
+  },
+  {
+    "name": "coding-thinking",
+    "thinking": true,
+    "wall_seconds": 8.082,
+    "response": "[omitted]"
+  }
+]

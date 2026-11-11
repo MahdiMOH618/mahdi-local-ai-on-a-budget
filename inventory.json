@@ -1,0 +1,171 @@
+{
+  "project": "Mahdi Local AI on a Budget",
+  "scope": "Completed successful run configurations only; task accuracy scores are not filtered for success",
+  "groups": [
+    {
+      "date": "2026-10-28",
+      "topic": "bionic-vulkan",
+      "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/",
+      "models": "Qwen3.8-27B Q4_K_M + DFlash2 Q4_K_M",
+      "runtime_backend": "Bionic Vulkan 2.65.1 / llama.cpp b11908",
+      "tested": "Memory/context, Mesa/MMVQ and drafting; short coding/prose/math",
+      "status": "Complete short tests; one wrong greedy math answer",
+      "suggestion": "Include with limits",
+      "number": 1
+    },
+    {
+      "date": "2026-10-28\u201329",
+      "topic": "qwen27b-sycl",
+      "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/",
+      "models": "Same Qwen27B Q4 and DFlash2",
+      "runtime_backend": "llama.cpp b11908 FP16/FP32, c3df4b7 SYCL",
+      "tested": "Runtime, draft length/p-min, ubatch, marker/context tests",
+      "status": "Completed listed working variants only",
+      "suggestion": "Included; incomplete variants not distributed",
+      "number": 2
+    },
+    {
+      "date": "2026-10-29",
+      "topic": "ornith-single",
+      "source": "~/Documents/ChatGPT/Local AI & Models/Ornith benchmark/REPORT.md",
+      "models": "Ornith1.5-35B-A3B Q4_K_M vs Qwen27B Q4_K_M",
+      "runtime_backend": "llama.cpp c3df4b7 SYCL; single B60",
+      "tested": "Coding, tools, short speed and10K input",
+      "status": "Complete small suite; capped/truncated cases separate",
+      "suggestion": "Include",
+      "number": 3
+    },
+    {
+      "date": "2026-10-29",
+      "topic": "ornith-medgemma-concurrent",
+      "source": "~/Documents/ChatGPT/Local AI & Models/Ornith benchmark/DUAL-GPU-REPORT.md",
+      "models": "Ornith Q4_K_M + MedGemma1.5-4B Q8_0",
+      "runtime_backend": "SYCL B60 + CUDA GTX1080Ti",
+      "tested": "Alone/concurrent text and synthetic-image generation",
+      "status": "Complete short concurrency tests",
+      "suggestion": "Include; distinct historical hardware",
+      "number": 4
+    },
+    {
+      "date": "2026-10-30",
+      "topic": "qwen9b-q4-controls",
+      "source": "~/Documents/ChatGPT/Local AI & Models/Qwen 3.5 9B replacement/",
+      "models": "Qwen3.5-9B Q4_K_M",
+      "runtime_backend": "llama.cpp b11908 CUDA12.8 / GTX1080Ti",
+      "tested": "Batch/FA, synthetic alignment controls and tool-assisted checks",
+      "status": "Completed final working configuration",
+      "suggestion": "Included; initial startup experiments not distributed",
+      "number": 5
+    },
+    {
+      "date": "2026-10-30",
+      "topic": "synthetic-vision-qa",
+      "source": "~/Documents/ChatGPT/Local AI & Models/Gemma 4 E4B benchmark/",
+      "models": "Qwen3-VL8B Thinking Q5; Qwen3.5-9B Q4; MedGemma1.5-4B Q8; InternVL3.5-8B Q4; Ministral3-8B Q4; MedGemma SFTCTIQA Q8; Youtu-VL4B Q8; Gemma4-E4B Q4",
+      "runtime_backend": "llama.cpp CUDA / GTX1080Ti; historical configurations",
+      "tested": "Frozen41 synthetic phantom QA/capacity/tool cases per model",
+      "status": "Primary vs budget rescue separate; not clinical validation",
+      "suggestion": "Include; latest cumulative summary plus unique source results",
+      "number": 6
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "hardware-stress-startup",
+      "source": "~/strata-trial/system-check-20261107/",
+      "models": "No model inference; CPU/RAM/GPU stress only",
+      "runtime_backend": "Custom checked hardware workloads",
+      "tested": "Successful CPU/RAM/GPU stress only",
+      "status": "Passed short stress",
+      "suggestion": "Hardware appendix only",
+      "number": 7
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "dual-runtime-fix",
+      "source": "~/strata-trial/dual-runtime-fix-20261107/",
+      "models": "Qwen3.8-Flash-Next IQ2_XS",
+      "runtime_backend": "Strata0.1.56 SYCL / llama.cpp SYCL",
+      "tested": "Dense-slab device-detection fix, restart/tools/SSE validation",
+      "status": "23 successful runtime-validation requests",
+      "suggestion": "Included completed validation only",
+      "number": 8
+    },
+    {
+      "date": "2026-11-07",
+      "topic": "qwen-context-sweep",
+      "source": "~/strata-trial/context-sweep-20261107/",
+      "models": "Qwen3.8-Flash-Next IQ2_XS",
+      "runtime_backend": "Strata0.1.56 SYCL + MTP",
+      "tested": "8K\u2013264K capacity, near-full prefill/decode; trimmed stage weights",
+      "status": "Passed contexts only",
+      "suggestion": "Include exact per-variant settings",
+      "number": 9
+    },
+    {
+      "date": "2026-11-08",
+      "topic": "qwen-cache-reuse",
+      "source": "~/strata-trial/cache-reuse-20261108/",
+      "models": "Qwen IQ2_XS",
+      "runtime_backend": "Strata SYCL",
+      "tested": "Prompt-cache0 vs3, sequential synthetic prefix reuse",
+      "status": "Direct-API reuse passed; client application reuse unknown",
+      "suggestion": "Include",
+      "number": 10
+    },
+    {
+      "date": "2026-11-08\u201309",
+      "topic": "qwen-q2-q3-q4",
+      "source": "~/strata-trial/uncensored-q3-q4-20261108/",
+      "models": "GSQ-RCO IQ2_XS vs patched Huihui UD-Q3_K_XL / UD-Q4_K_XL",
+      "runtime_backend": "Strata SYCL + MTP, pinned GPU-read host experts",
+      "tested": "64K speed/quality/coding/retrieval; host expert pinning",
+      "status": "Three complete64K model arms",
+      "suggestion": "Earlier interrupted controller/128K grader-error arm not included",
+      "number": 11
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "qwen-mtp-window",
+      "source": "~/strata-trial/mtp-spec-comparison-20261111/",
+      "models": "Current Huihui IQ2_XS",
+      "runtime_backend": "Strata SYCL+MTP and retained lookup",
+      "tested": "Requested spec2/3/4;1K32K3 cold reps;fastest JSON/tools",
+      "status": "Complete; small overlapping speed ranges",
+      "suggestion": "Include; spec2 best observed, not universal optimum",
+      "number": 12
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "bolt",
+      "source": "~/bench-bolt/",
+      "models": "Bolt-U AD-IQ2_XS; official Bolt-N24GB vs historical Qwen",
+      "runtime_backend": "llama.cpp459ab1c SYCL; historical Qwen Strata",
+      "tested": "128K context, speed and quality",
+      "status": "U complete117 cases; N optional27 cases; reused Qwen duplicate",
+      "suggestion": "Include counts, sandbox/format/manual-review caveats",
+      "number": 13
+    },
+    {
+      "date": "2026-11-11",
+      "topic": "lilicorr-vulkan",
+      "source": "~/bench-bolt/lilicorr/vulkan/",
+      "models": "Bolt-U + same LiLiCorr",
+      "runtime_backend": "llama.cpp7592b61 Vulkan on2B60s",
+      "tested": "Step0N6;1K none vsN5,3 cold reps512output",
+      "status": "Complete: 3 smokes and6 speed requests",
+      "suggestion": "Include; no broader quality inference",
+      "number": 14
+    },
+    {
+      "number": 15,
+      "date": "2026-11-10",
+      "topic": "qwen-huihui-128k",
+      "source": "Historical Qwen completed baseline, retained once",
+      "models": "Huihui-adapted Qwen3.8-Flash-Next IQ2_XS with Q6_K projections",
+      "runtime_backend": "Strata0.1.56 SYCL+MTP/lookup",
+      "tested": "1K32K64K120K512-output speed and frozen quality3reps",
+      "status": "Completed159 scored cases309 requests",
+      "suggestion": "Include once; reused baseline is not a new run"
+    }
+  ]
+}

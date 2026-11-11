@@ -1,0 +1,918 @@
+[
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 2.944335467000201,
+    "start_time": 1793338290.4092288,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C041",
+    "category": "tool-use",
+    "policy": "native4096",
+    "elapsed_seconds": 1.8998906920023728,
+    "start_time": 1793338293.3580987,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C016",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 2.209419947997958,
+    "start_time": 1793338295.2628825,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C019",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 2.2279622920032125,
+    "start_time": 1793338297.477977,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C037",
+    "category": "14-insufficient",
+    "policy": "native4096",
+    "elapsed_seconds": 2.700133142003324,
+    "start_time": 1793338299.713015,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C020",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 2.2814994739965186,
+    "start_time": 1793338302.4189837,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C009",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 2.691644623002503,
+    "start_time": 1793338304.705941,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C004",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 2.7872229249987868,
+    "start_time": 1793338307.4042861,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": -20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "policy": "native4096",
+    "elapsed_seconds": 2.130014893002226,
+    "start_time": 1793338310.1969552,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "scale_factor": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C013",
+    "category": "4-coverage",
+    "policy": "native4096",
+    "elapsed_seconds": 2.4506885570008308,
+    "start_time": 1793338312.3323605,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 2.663797904999228,
+    "start_time": 1793338314.7883868,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 5,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C025",
+    "category": "8-scaling",
+    "policy": "native4096",
+    "elapsed_seconds": 2.7860872430028394,
+    "start_time": 1793338317.4578817,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C032",
+    "category": "11-reconstruction",
+    "policy": "native4096",
+    "elapsed_seconds": 2.8359740110026905,
+    "start_time": 1793338320.2498424,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": 2,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C023",
+    "category": "7-conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 2.188304347000667,
+    "start_time": 1793338323.0911396,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C002",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 2.6639021419978235,
+    "start_time": 1793338325.2850673,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": -10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C031",
+    "category": "11-reconstruction",
+    "policy": "native4096",
+    "elapsed_seconds": 2.800071960002242,
+    "start_time": 1793338327.9553027,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C029",
+    "category": "10-provenance",
+    "policy": "native4096",
+    "elapsed_seconds": 2.378971915997681,
+    "start_time": 1793338330.7607539,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C033",
+    "category": "12-display",
+    "policy": "native4096",
+    "elapsed_seconds": 2.446648381999694,
+    "start_time": 1793338333.1463969,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C040",
+    "category": "capacity",
+    "policy": "native4096",
+    "elapsed_seconds": 16.723755462000554,
+    "start_time": 1793338335.6002057,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C012",
+    "category": "3-orientation",
+    "policy": "native4096",
+    "elapsed_seconds": 1.933921267002006,
+    "start_time": 1793338352.3308928,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C026",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 2.2035241659978055,
+    "start_time": 1793338354.2719047,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C030",
+    "category": "10-provenance",
+    "policy": "native4096",
+    "elapsed_seconds": 1.9229828040042776,
+    "start_time": 1793338356.4822643,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C001",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 2.670707767996646,
+    "start_time": 1793338358.4112725,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C039",
+    "category": "15-repeatability",
+    "policy": "native4096",
+    "elapsed_seconds": 2.6702671429957263,
+    "start_time": 1793338361.0875723,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C006",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 2.6774896909992094,
+    "start_time": 1793338363.7652214,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": -40,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 2.81426090199966,
+    "start_time": 1793338366.4489255,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "required_translation_mm": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C038",
+    "category": "15-repeatability",
+    "policy": "native4096",
+    "elapsed_seconds": 2.6728298059970257,
+    "start_time": 1793338369.2719169,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C005",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 2.672635007998906,
+    "start_time": 1793338371.951264,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 40,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C014",
+    "category": "4-coverage",
+    "policy": "native4096",
+    "elapsed_seconds": 1.8955700250007794,
+    "start_time": 1793338374.6305096,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C010",
+    "category": "13-correct-control",
+    "policy": "native4096",
+    "elapsed_seconds": 2.6741286309988936,
+    "start_time": 1793338376.5319543,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C011",
+    "category": "3-orientation",
+    "policy": "native4096",
+    "elapsed_seconds": 2.426656379000633,
+    "start_time": 1793338379.2143846,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C008",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 2.69806132800295,
+    "start_time": 1793338381.6476452,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": -10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C018",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 2.338694913996733,
+    "start_time": 1793338384.3524766,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C017",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 2.3909781760012265,
+    "start_time": 1793338386.703346,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C034",
+    "category": "12-display",
+    "policy": "native4096",
+    "elapsed_seconds": 2.3448730430027354,
+    "start_time": 1793338389.1031241,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C003",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 2.673664011002984,
+    "start_time": 1793338391.4541316,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C027",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 2.1812885449980968,
+    "start_time": 1793338394.1347108,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C022",
+    "category": "7-conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 3.512318527995376,
+    "start_time": 1793338396.3220654,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C036",
+    "category": "14-insufficient",
+    "policy": "native4096",
+    "elapsed_seconds": 2.2304108340031235,
+    "start_time": 1793338399.8411937,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C015",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 2.0840878119997797,
+    "start_time": 1793338402.0786347,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "youtu-vl-4b-instruct-q8",
+    "case_id": "C035",
+    "category": "13-correct-control",
+    "policy": "native4096",
+    "elapsed_seconds": 2.344649377002497,
+    "start_time": 1793338404.1690304,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  }
+]

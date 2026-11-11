@@ -1,0 +1,110 @@
+[
+  {
+    "wall_seconds": 2.256684634001431,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "warmup"
+  },
+  {
+    "wall_seconds": 5.787710574000812,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "text"
+  },
+  {
+    "wall_seconds": 4.96083734000058,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "image"
+  },
+  {
+    "wall_seconds": 5.717803495001135,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "text-repeat"
+  },
+  {
+    "wall_seconds": 9.87454396099929,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "coding-thinking"
+  },
+  {
+    "wall_seconds": 22.661936660999345,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "units"
+  },
+  {
+    "wall_seconds": 0.38411262999943574,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "coordinates"
+  },
+  {
+    "wall_seconds": 11.687520209001377,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "long-prompt"
+  },
+  {
+    "wall_seconds": 3.4875984419995802,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "concurrent-ornith"
+  },
+  {
+    "wall_seconds": 2.990437796997867,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "concurrent-qwen"
+  },
+  {
+    "wall_seconds": 1.0935037309973268,
+    "response": "[omitted]",
+    "profile": "baseline",
+    "case": "tool-call"
+  },
+  {
+    "wall_seconds": 2.202175983999041,
+    "response": "[omitted]",
+    "profile": "flash-batch512",
+    "case": "warmup"
+  },
+  {
+    "wall_seconds": 5.78536790400176,
+    "response": "[omitted]",
+    "profile": "flash-batch512",
+    "case": "text"
+  },
+  {
+    "wall_seconds": 3.4012279779999517,
+    "response": "[omitted]",
+    "profile": "flash-batch512",
+    "case": "image"
+  },
+  {
+    "wall_seconds": 5.759328534000815,
+    "response": "[omitted]",
+    "profile": "flash-batch512",
+    "case": "text-repeat"
+  },
+  {
+    "wall_seconds": 2.997023715997784,
+    "response": "[omitted]",
+    "profile": "flash-batch512",
+    "case": "concurrent-ornith"
+  },
+  {
+    "wall_seconds": 2.759684021999419,
+    "response": "[omitted]",
+    "profile": "flash-batch512",
+    "case": "concurrent-qwen"
+  },
+  {
+    "wall_seconds": 1.0342471179974382,
+    "response": "[omitted]",
+    "profile": "flash-batch512",
+    "case": "tool-call"
+  }
+]

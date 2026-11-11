@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-30",
+  "hardware": "GTX1080Ti CUDA, historical16GiB host RAM era",
+  "scope": "41 synthetic cases/model:39QA plus capacity/tool; not clinical validation",
+  "primary_vs_rescue": "Primary4096 total-token budget; budget-rescue scores separate",
+  "models": {
+    "qwen3vl-8b-thinking-q5": {
+      "primary_status_matches": 24,
+      "strict_matches": 18,
+      "parseable": 35,
+      "finished_parseable": 35,
+      "quant_correct": 12,
+      "quant_required": 27,
+      "defects_detected": 14,
+      "defect_total": 28,
+      "missed_or_unanswered_defects": 14,
+      "false_alarms": 1,
+      "normal_total": 9,
+      "appropriate_abstentions": 2,
+      "insufficient_total": 2,
+      "transport_or_missing_responses": 0,
+      "grading_errors": 0,
+      "truncated": 4,
+      "status_matches_with_rescue": 26,
+      "incorrect_numeric_claims": 8,
+      "numeric_claims_on_insufficient_cases": 0,
+      "repeatability": [
+        {
+          "case": "C039",
+          "repeat_of": "C001",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        },
+        {
+          "case": "C038",
+          "repeat_of": "C010",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        }
+      ],
+      "median_decode_tps": 42.27825285837129,
+      "median_request_seconds": 48.32432834299834
+    },
+    "qwen35-9b-q4": {
+      "primary_status_matches": 24,
+      "strict_matches": 18,
+      "parseable": 31,
+      "finished_parseable": 31,
+      "quant_correct": 14,
+      "quant_required": 27,
+      "defects_detected": 13,
+      "defect_total": 28,
+      "missed_or_unanswered_defects": 15,
+      "false_alarms": 0,
+      "normal_total": 9,
+      "appropriate_abstentions": 2,
+      "insufficient_total": 2,
+      "transport_or_missing_responses": 0,
+      "grading_errors": 0,
+      "truncated": 8,
+      "status_matches_with_rescue": 32,
+      "incorrect_numeric_claims": 7,
+      "numeric_claims_on_insufficient_cases": 0,
+      "repeatability": [
+        {
+          "case": "C039",
+          "repeat_of": "C001",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        },
+        {
+          "case": "C038",
+          "repeat_of": "C010",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        }
+      ],
+      "median_decode_tps": 45.20516857294345,
+      "median_request_seconds": 49.072981504999916
+    },
+    "medgemma15-4b-q8": {
+      "primary_status_matches": 13,
+      "strict_matches": 12,
+      "parseable": 36,
+      "finished_parseable": 36,
+      "quant_correct": 9,
+      "quant_required": 27,
+      "defects_detected": 5,
+      "defect_total": 28,
+      "missed_or_unanswered_defects": 23,
+      "false_alarms": 1,
+      "normal_total": 9,
+      "appropriate_abstentions": 1,
+      "insufficient_total": 2,
+      "transport_or_missing_responses": 0,
+      "grading_errors": 0,
+      "truncated": 3,
+      "status_matches_with_rescue": 13,
+      "incorrect_numeric_claims": 4,
+      "numeric_claims_on_insufficient_cases": 0,
+      "repeatability": [
+        {
+          "case": "C039",
+          "repeat_of": "C001",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        },
+        {
+          "case": "C038",
+          "repeat_of": "C010",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        }
+      ],
+      "median_decode_tps": 55.22713276875358,
+      "median_request_seconds": 17.868588789999194
+    },
+    "internvl35-8b-q4": {
+      "primary_status_matches": 22,
+      "strict_matches": 14,
+      "parseable": 39,
+      "finished_parseable": 39,
+      "quant_correct": 1,
+      "quant_required": 27,
+      "defects_detected": 13,
+      "defect_total": 28,
+      "missed_or_unanswered_defects": 15,
+      "false_alarms": 2,
+      "normal_total": 9,
+      "appropriate_abstentions": 2,
+      "insufficient_total": 2,
+      "transport_or_missing_responses": 0,
+      "grading_errors": 0,
+      "truncated": 0,
+      "status_matches_with_rescue": 22,
+      "incorrect_numeric_claims": 2,
+      "numeric_claims_on_insufficient_cases": 0,
+      "repeatability": [
+        {
+          "case": "C039",
+          "repeat_of": "C001",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        },
+        {
+          "case": "C038",
+          "repeat_of": "C010",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        }
+      ],
+      "median_decode_tps": 51.0205922202358,
+      "median_request_seconds": 3.211742432999017
+    },
+    "ministral3-8b-instruct-q4": {
+      "primary_status_matches": 8,
+      "strict_matches": 8,
+      "parseable": 30,
+      "finished_parseable": 30,
+      "quant_correct": 14,
+      "quant_required": 27,
+      "defects_detected": 3,
+      "defect_total": 28,
+      "missed_or_unanswered_defects": 25,
+      "false_alarms": 1,
+      "normal_total": 9,
+      "appropriate_abstentions": 0,
+      "insufficient_total": 2,
+      "transport_or_missing_responses": 0,
+      "grading_errors": 0,
+      "truncated": 0,
+      "status_matches_with_rescue": 8,
+      "incorrect_numeric_claims": 10,
+      "numeric_claims_on_insufficient_cases": 0,
+      "repeatability": [
+        {
+          "case": "C039",
+          "repeat_of": "C001",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        },
+        {
+          "case": "C038",
+          "repeat_of": "C010",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        }
+      ],
+      "median_decode_tps": 46.361001635820294,
+      "median_request_seconds": 8.27215374699881
+    },
+    "medgemma-4b-it-sftctiqa-q8": {
+      "primary_status_matches": 9,
+      "strict_matches": 9,
+      "parseable": 39,
+      "finished_parseable": 39,
+      "quant_correct": 0,
+      "quant_required": 27,
+      "defects_detected": 0,
+      "defect_total": 28,
+      "missed_or_unanswered_defects": 28,
+      "false_alarms": 0,
+      "normal_total": 9,
+      "appropriate_abstentions": 0,
+      "insufficient_total": 2,
+      "transport_or_missing_responses": 0,
+      "grading_errors": 0,
+      "truncated": 0,
+      "status_matches_with_rescue": 9,
+      "incorrect_numeric_claims": 0,
+      "numeric_claims_on_insufficient_cases": 0,
+      "repeatability": [
+        {
+          "case": "C039",
+          "repeat_of": "C001",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        },
+        {
+          "case": "C038",
+          "repeat_of": "C010",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        }
+      ],
+      "median_decode_tps": 54.75647831126888,
+      "median_request_seconds": 6.032185500000196
+    },
+    "youtu-vl-4b-instruct-q8": {
+      "primary_status_matches": 13,
+      "strict_matches": 13,
+      "parseable": 39,
+      "finished_parseable": 39,
+      "quant_correct": 13,
+      "quant_required": 27,
+      "defects_detected": 2,
+      "defect_total": 28,
+      "missed_or_unanswered_defects": 26,
+      "false_alarms": 0,
+      "normal_total": 9,
+      "appropriate_abstentions": 2,
+      "insufficient_total": 2,
+      "transport_or_missing_responses": 0,
+      "grading_errors": 0,
+      "truncated": 0,
+      "status_matches_with_rescue": 13,
+      "incorrect_numeric_claims": 10,
+      "numeric_claims_on_insufficient_cases": 0,
+      "repeatability": [
+        {
+          "case": "C039",
+          "repeat_of": "C001",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        },
+        {
+          "case": "C038",
+          "repeat_of": "C010",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        }
+      ],
+      "median_decode_tps": 42.387477082747665,
+      "median_request_seconds": 2.4506885570008308
+    },
+    "gemma4-e4b-it-q4": {
+      "primary_status_matches": 22,
+      "strict_matches": 16,
+      "parseable": 39,
+      "finished_parseable": 39,
+      "quant_correct": 10,
+      "quant_required": 27,
+      "defects_detected": 12,
+      "defect_total": 28,
+      "missed_or_unanswered_defects": 16,
+      "false_alarms": 1,
+      "normal_total": 9,
+      "appropriate_abstentions": 2,
+      "insufficient_total": 2,
+      "transport_or_missing_responses": 0,
+      "grading_errors": 0,
+      "truncated": 0,
+      "status_matches_with_rescue": 22,
+      "incorrect_numeric_claims": 4,
+      "numeric_claims_on_insufficient_cases": 0,
+      "repeatability": [
+        {
+          "case": "C039",
+          "repeat_of": "C001",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        },
+        {
+          "case": "C038",
+          "repeat_of": "C010",
+          "both_parseable": true,
+          "same_status": true,
+          "same_measurements": true
+        }
+      ],
+      "median_decode_tps": 58.45164480638216,
+      "median_request_seconds": 13.687551779003115
+    }
+  }
+}

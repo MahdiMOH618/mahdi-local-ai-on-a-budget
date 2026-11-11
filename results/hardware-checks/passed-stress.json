@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-07",
+  "CPU": "4AVX2/FMA plus4memory workers; no arithmetic mismatch",
+  "RAM": "32GiB checked with16 patterns in about94seconds; zero mismatches; not all64GiB certified",
+  "GPU_workload": "Both checked2048-square FP16GEMM/FP32output for90seconds",
+  "GPU_effective_TFLOPS": [
+    28.52,
+    26.89
+  ],
+  "CPU_peak_C": 78,
+  "GPU_peak_C": [
+    52,
+    51
+  ],
+  "BAR_per_card_GiB": 32,
+  "VRAM_prior_checked": "44GiB total,22per card; not every physical byte tested",
+  "limitation": "Custom matrix workload; not theoretical peak or model tokens/s"
+}

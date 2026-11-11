@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "questions": 3,
+  "all_correct_clean_thinking_separated": true,
+  "full_target_GPU_layers": "89/89",
+  "full_draft_GPU_layers": "6/6",
+  "step0_N": 6,
+  "block_size": 8,
+  "attention": "enabled",
+  "heavy_CPU_graph_operations": 0,
+  "scope": "No broader quality or32K suite"
+}

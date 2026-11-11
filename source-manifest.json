@@ -1,0 +1,506 @@
+[
+  {
+    "public_file": "results/qwen27b-vulkan/baseline-benchmark.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/baseline-benchmark.json",
+    "source_sha256": "040e53d9fd4c7fe5f79016e7822c457f7bac97ec619bad799532650a8925171d",
+    "public_sha256": "040e53d9fd4c7fe5f79016e7822c457f7bac97ec619bad799532650a8925171d",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-vulkan/tuned-benchmark.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/tuned-benchmark.json",
+    "source_sha256": "293e2a4b89bf88825444ad47cced0d64e0137afd989241f2e449c8b700689341",
+    "public_sha256": "293e2a4b89bf88825444ad47cced0d64e0137afd989241f2e449c8b700689341",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-vulkan/dflash-benchmark.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/dflash-benchmark.json",
+    "source_sha256": "181234f8ebd1f56838d65121ff47e64a6ad7f441781614aa32d9e43eea9248c4",
+    "public_sha256": "181234f8ebd1f56838d65121ff47e64a6ad7f441781614aa32d9e43eea9248c4",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-vulkan/dflash-mmvq-benchmark.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/dflash-mmvq-benchmark.json",
+    "source_sha256": "b74a10658f4578641015ead1171f30112e4e061f694da6b96dfd576af975b161",
+    "public_sha256": "b74a10658f4578641015ead1171f30112e4e061f694da6b96dfd576af975b161",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-vulkan/dflash-mesa26-benchmark.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/dflash-mesa26-benchmark.json",
+    "source_sha256": "4050b7c9ef270cfc91d6572911899f5d649d771aa821d445dac0f03632299fc7",
+    "public_sha256": "4050b7c9ef270cfc91d6572911899f5d649d771aa821d445dac0f03632299fc7",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-vulkan/suite-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/suite-results.json",
+    "source_sha256": "c1bfa185f46983841b59e871d95f49b68f87c25036ea891db1ef7aed647b67f5",
+    "public_sha256": "6aa24e965a21ba6b10788cc85c601a119be9d50fa5b7c9db20b25b5f90a730db",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-vulkan/complete-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/complete-results.json",
+    "source_sha256": "74418c44ab1142f8512b017328ad15a867ed04280582905b69314a97bcc0c335",
+    "public_sha256": "692de71535d43ea964196bf34afd674c33c17299df1f683033e3f7687734e9cd",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-vulkan/no-draft-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/no-draft-results.json",
+    "source_sha256": "f645a412cc96f4605558f4200f82cb9fce5e5e756daeb74812f8e37f0e86ae89",
+    "public_sha256": "0db0fc1fc3d23a798454dcfcf861673b7c42edcd9b9ea28c63c519648c373cac",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/fp16-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/fp16-results.json",
+    "source_sha256": "8b9a4af336f30434ac28bb64c83383f918feeeda1f6b7f94ee44a23913d74516",
+    "public_sha256": "8afc474bb38e8066aadff73d5d4d1edbfb13318ca596e29aeb48c06d8c9e3572",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/fp32-dflash12-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/fp32-dflash12-results.json",
+    "source_sha256": "89c9a97b849be32dbded52d02b194d5b7e72d8111d13b0e4e2238aa86504d216",
+    "public_sha256": "82ff35e112ab7b11a75522feaeb6f91289b85052df311b1955874840b75f1224",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/sycl-suite-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/sycl-suite-results.json",
+    "source_sha256": "d81f59e03f9cc9a8b43e90516fc1b87bb3c850f4dfcb798591c73bab1580e08c",
+    "public_sha256": "c6f93dd13566484a663db0343b132ad7d6b71c23568ec0a300d0973385b8ce09",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/sycl-repeat-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/sycl-repeat-results.json",
+    "source_sha256": "3cef24bd2c3607b58cbde43885cb3b2550b7602c7afb22a296eb7eb32d1748a4",
+    "public_sha256": "87c43f20fb56053ac54fea313700983a8a992df8e15b0e503c2d4730035ea673",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/sycl-complete-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/sycl-complete-results.json",
+    "source_sha256": "d9b5c30d7bfd9b06998ce90bbeb39701464eb611ba1bdd851192b5dc5e08c35e",
+    "public_sha256": "8ef07ff5b0a9bea10935735cdf71182863531e929f3754e48e523a459990f358",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/latest-fp32-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/latest-fp32-results.json",
+    "source_sha256": "5debfc5fc6e25aa66e92d8f660df1e90b499c2344989dc36dd26e56f98257aa3",
+    "public_sha256": "35f961e7833e7d859f1807e8118eede63667da6bdf266068edaea387a1300c48",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/latest-fp32-repeat-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/latest-fp32-repeat-results.json",
+    "source_sha256": "9ac1e67f714a5da48d211be5bc7f971e51a4ee9c95a5728ed072b4c1cd4d80a2",
+    "public_sha256": "b724073d5eea223394bacbc91c44c132278076bc586e2bbabd4c7b4941eb9f47",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/latest-fp32-pmin02-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/latest-fp32-pmin02-results.json",
+    "source_sha256": "e6a028ed16b641fa5fafcde8eb976a45ac5b0b20fd070ed1c9d73f17b7335fe6",
+    "public_sha256": "0633cf31b2b6ce4e6d89300af6a13eccb0ccdcb969f2ac380f185eae392e25c5",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/latest-fp32-pmin02-ub512-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/latest-fp32-pmin02-ub512-results.json",
+    "source_sha256": "cc7975d10f5db766ec07b3129bd2ae65f87067bd78551dec953f3b76295d73f5",
+    "public_sha256": "92c26d479c1b865eb9d6cc89d811b8da97afac7430b058c53e45148c4fa7891e",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/latest-fp32-pmin02-ub1024-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/latest-fp32-pmin02-ub1024-results.json",
+    "source_sha256": "d488c810853c3461b28043917256fbdb0cdbe207f512d028723b9f5a054d4043",
+    "public_sha256": "a6adb6f9f2e7448216af294f06606b60a7ecd06cc3c4617d9eaf983f83acb92b",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/latest-fp32-pmin02-long-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/latest-fp32-pmin02-long-results.json",
+    "source_sha256": "cb6f957e2efe781e246b2d00ed37f61be5235b9ce49ec715c855fad746d6f848",
+    "public_sha256": "04d757049b25ac69441add5e770f950e90b0df6e0c58b1966b4c830741525fac",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/latest-fp32-pmin02-ub512-long-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/latest-fp32-pmin02-ub512-long-results.json",
+    "source_sha256": "bba0d4b414b36b9cedc15214765f0f4d2e5bb9319dd948d9d876e8a8da45d1c2",
+    "public_sha256": "67cf10f13a71f74b39a861547279096a8b25018b34dcc3ddca08cc3d49fe3667",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/latest-fp32-pmin02-ub1024-long-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/latest-fp32-pmin02-ub1024-long-results.json",
+    "source_sha256": "0ea9f3d0780e9b083308fc316fc3d340bd3e16a4ce8eb7589c4eee58084f2cdc",
+    "public_sha256": "f4dcf2df38d755ce59490fc945b5045b6a265f9d855eef826f2bbec831de95fb",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen27b-sycl/context-sweep-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Bionic optimization/2026-10-28/Intel SYCL test/context-sweep-results.json",
+    "source_sha256": "619a4a2565af3afde41fa6b160eec60ae6e0bab88f3c254b575c704d8d11dbf5",
+    "public_sha256": "cc4de6cbb6031e07fb661aa21e8f982e2ec7062abdbd4328bcb397f66c4209b3",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/ornith-single-b60/results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Ornith benchmark/results.json",
+    "source_sha256": "617c1d7b98bb68dfa671e658c0197bbf8c6c0f39ec8aa7cb17748ebffaca52c5",
+    "public_sha256": "a2dbf61c52dfa17b3dd82f2702c0844dcc3b426d8bac5396bb221bf12ba2128f",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/ornith-single-b60/qwen-baseline.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Ornith benchmark/qwen-baseline.json",
+    "source_sha256": "42498ecde6aa7d91a28631d03c69206baf6fcf232a1a00140808e4d58a25d58c",
+    "public_sha256": "cacd4a4faff8c886dde6beb6fdac09e3f6a41a4ca72d2e9d87ecdf9404d60c1a",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/ornith-medgemma-concurrent/dual-gpu-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Ornith benchmark/dual-gpu-results.json",
+    "source_sha256": "a9d40d2c388d9d68ff4abcfd4a7b50260bbc9217ec6233da05bc33072309be78",
+    "public_sha256": "22b35f95d654d1cca9d8ce8f6789ca43167b549eaf7333a881d1688b7e6b5fa8",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/ornith-medgemma-concurrent/dual-gpu-sustained.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Ornith benchmark/dual-gpu-sustained.json",
+    "source_sha256": "3f7232a2f958923b87738dc44ce4c421ca461a788fce81cfb09326ec3b1a815d",
+    "public_sha256": "c803f75caa74dc5fbb7d8efe9b9b970eafdd51915c3abc21e937224d63466810",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen9b-q4-controls/results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Qwen 3.5 9B replacement/results.json",
+    "source_sha256": "ee88638559670ae0f7eff9a8dc0a0bbdc44a7819dad5bd36517fa4b06d3a02fa",
+    "public_sha256": "c789d8d98bcede4c3e08a5c17aa40b34aed5edde582d9266097018826fceba59",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen9b-q4-controls/gap-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Qwen 3.5 9B replacement/gap-results.json",
+    "source_sha256": "458ce91b19264d552189990047a37b8dcdff095db46974006029849eea79b64b",
+    "public_sha256": "ac6e1a02f6644263f3c91d4d25c090a24f3eef5df1c86d74fa48c815bd4ab579",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen9b-q4-controls/input-control-results.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Qwen 3.5 9B replacement/input-control-results.json",
+    "source_sha256": "522b143d3ea55584559f41b62ade56089f429f193510e993a6df7523fa1117e3",
+    "public_sha256": "159eb3405c7abd986938dc7a4090bc4693e47bb011781016c545a9128bb6afd7",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen9b-q4-controls/tool-assisted-result.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Qwen 3.5 9B replacement/tool-assisted-result.json",
+    "source_sha256": "3251d10a02ae71f4147cd5f4b22166c1c9d11afdbb64fc16a57f25dc8f84d500",
+    "public_sha256": "7ce96a0a092c43ae6d347e3a7fda1b4f3e855ca6b85b66d503f56ad014eabb5e",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/synthetic-vision-qa/eight-model-summary.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Gemma 4 E4B benchmark/comparison-summary.json",
+    "source_sha256": "8fdfa113b31635a7aa9403abbc726812102a462d77dd9fd174c9916461dbc180",
+    "public_sha256": "cdf8d30bece039ffe64cfec84a4af26a28ad1e44345b0120ee9fd80a5799e695",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/synthetic-vision-qa/four-model-primary.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Qwen3 VL 8B Thinking test/full-results-normalized.json",
+    "source_sha256": "4ccd2278cb59909095f8af82cfedf3a9022fdc11296dc7c22feb7ffde79aa744",
+    "public_sha256": "2bea82572e4429309b6c59a5c02f21d864940d3ce91ecb80034d6ff20f2300ef",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/synthetic-vision-qa/ministral.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Ministral 3 8B review benchmark/results.json",
+    "source_sha256": "a1ac63068a31b78cfb66cd530c791ebd7f880cbd28d5e29790286216309bc8a7",
+    "public_sha256": "f4c7b2dffeee75ccb55b7c7b70f4966c9f1d318eb8360b743ff447ed8abc6399",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/synthetic-vision-qa/medgemma-sftctiqa.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/MedGemma SFTCTIQA benchmark/results.json",
+    "source_sha256": "7363865ad7eaae7acaa13e6e56f7dbfcb9d7aed3783040a0ab9eaaab1068bced",
+    "public_sha256": "6f37cf78de91ecc4cc9db96e4096f0b58f518323329371b3bf19756dfa103884",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/synthetic-vision-qa/youtu.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Youtu VL 4B benchmark/results.json",
+    "source_sha256": "cd87f1b4b25a6590a2120287a9a637e78dedac0c0abe4235c549b00f02058a08",
+    "public_sha256": "e2bd5af1c20026fe24e2c6b28cb0d70f33c6f1c4796d039d120d09a19f176a32",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/synthetic-vision-qa/gemma4.json",
+    "source": "~/Documents/ChatGPT/Local AI & Models/Gemma 4 E4B benchmark/results.json",
+    "source_sha256": "49101dd7641622319909a51444c1000e8401ba4cd3337c0da16c07f7ab1a3655",
+    "public_sha256": "8ea207a1967348631f1137379d12deb4913c9753139be842c387eeace3e1e441",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-context-sweep/passed-contexts.json",
+    "source": "~/strata-trial/context-sweep-20261107/COMPLETE-REPORT.txt",
+    "source_sha256": "cf0f9d7e2d39bcc7bd8223574625d55185103942bf33e650b912436708e9c5b3",
+    "public_sha256": "706ab780025ab249fb3b4a0ef19f63d7391b57a605a286f1ba2015a7bdd3d4c5",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-cache-reuse/summary.json",
+    "source": "~/strata-trial/cache-reuse-20261108/summary.json",
+    "source_sha256": "40f35a1fc55a33425c94fcf40c512e3bee1d511fdabee5c68f628666796a2a05",
+    "public_sha256": "04bee79f3379ad3293b0bd91bdddd17394dbdd7ad6ee36c6d9c0990f5da5bd64",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/strata-runtime-validation/summary.json",
+    "source": "~/strata-trial/dual-runtime-fix-20261107/REPORT.txt",
+    "source_sha256": "dfcf895c2d37ffd0c215d94138fd7e842d4656a3755ea776a19f60ec94ee6f3c",
+    "public_sha256": "14726c270bb70d9a034b9054decefd76d7f715fc9fca714a1d1099a8bec49805",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/hardware-checks/passed-stress.json",
+    "source": "~/strata-trial/system-check-20261107/REPORT.txt",
+    "source_sha256": "973c485af34e122dc1a8ceeaa6b7a4bdacadc46a7e03a56250a2fc3496b62378",
+    "public_sha256": "17b6f44f0daa8760a47d0fbc48d9bdc0f088e8f833544bed7af6bcfb66d5527a",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-q2-q3-q4/completed-64k-arms.json",
+    "source": "~/strata-trial/uncensored-q3-q4-20261108/final-benchmark-data.json",
+    "source_sha256": "e0b532156a1d48d97338547f0cdf32d00ef1caf88c401bdf61ff477eb41e49df",
+    "public_sha256": "0cb7927db771dd5ac2aa822aeeb252a3057e2d1eb5086248809adce298e6229d",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-q2-q3-q4/model-identities.json",
+    "source": "~/strata-trial/uncensored-q3-q4-20261108/final-benchmark-data.json",
+    "source_sha256": "e0b532156a1d48d97338547f0cdf32d00ef1caf88c401bdf61ff477eb41e49df",
+    "public_sha256": "5dc3cb3cd946c6256edb7be00b36f8aa2f9308a583c5e3228bc53329ef2e013c",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-huihui-128k/Qwen-requests.json",
+    "source": "~/bench-bolt/results/Qwen-historical/requests.json",
+    "source_sha256": "b8ca523f041f5fa7030ba4daa037e3f72869eeb5671bd9949bdbae1c6cbad57b",
+    "public_sha256": "b8ca523f041f5fa7030ba4daa037e3f72869eeb5671bd9949bdbae1c6cbad57b",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-huihui-128k/Qwen-scores.json",
+    "source": "~/bench-bolt/results/Qwen-historical/scores.json",
+    "source_sha256": "a1b00a691175bb1c0c2c13428243301c9bdb2f7257ef744d7d8d5f252f6d049d",
+    "public_sha256": "0657db1243221d72ad4d11d6784117c4d72b2a169f530fec3f62109f44a6f964",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-huihui-128k/Qwen-summary.json",
+    "source": "~/bench-bolt/comparison-data.json",
+    "source_sha256": "8ca347ac464d4d66a71cd55e408e11fc3cc29551275d443c89e7e0c7b0c2adaa",
+    "public_sha256": "f95dc1c3a1cd4c5e9810467f234df6f6da27865b23e79ae98875fce1f74427e0",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/Bolt-U-requests.json",
+    "source": "~/bench-bolt/results/Bolt-U/requests.json",
+    "source_sha256": "3b6b7fab4293f2ea92e6deafd56d2fe4ea7f6690ac5c4477e5e2266d9fc39106",
+    "public_sha256": "3b6b7fab4293f2ea92e6deafd56d2fe4ea7f6690ac5c4477e5e2266d9fc39106",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/Bolt-U-scores.json",
+    "source": "~/bench-bolt/results/Bolt-U/scores.json",
+    "source_sha256": "0b5b4d0a8afc1cb4653a798ebb81312954694cfa0beeab936f82345c493bc648",
+    "public_sha256": "b18d30d8e4816361989c9fc790dcc4db2efc6531998e1e284085f4d188d56592",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/Bolt-U-summary.json",
+    "source": "~/bench-bolt/comparison-data.json",
+    "source_sha256": "8ca347ac464d4d66a71cd55e408e11fc3cc29551275d443c89e7e0c7b0c2adaa",
+    "public_sha256": "9a56ec42645ba9c05e8f72f5c8e40febec56b3d8e620a6ef8aa8a6bce42b00bc",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/Bolt-N-requests.json",
+    "source": "~/bench-bolt/results/Bolt-N/requests.json",
+    "source_sha256": "3b28b6bd235429ac5bf5e2c5a1b183fd6fb9b66c2566834e6d9d86016f2481af",
+    "public_sha256": "3b28b6bd235429ac5bf5e2c5a1b183fd6fb9b66c2566834e6d9d86016f2481af",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/Bolt-N-scores.json",
+    "source": "~/bench-bolt/results/Bolt-N/scores.json",
+    "source_sha256": "9ff745472ad925e8ee1a47e1aa3ca8c9583360bf46211b629014279df8cea393",
+    "public_sha256": "98c620c5a18d4d46927c671edf195b76520c7770e06787a10ee23b78cf68089e",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/Bolt-N-summary.json",
+    "source": "~/bench-bolt/comparison-data.json",
+    "source_sha256": "8ca347ac464d4d66a71cd55e408e11fc3cc29551275d443c89e7e0c7b0c2adaa",
+    "public_sha256": "f0005b214a635b56fb56d67fa3018f883a7fa11ddd4e8e41635f2959f4dbba5e",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/Bolt-U-identity.json",
+    "source": "~/bench-bolt/provenance/download-verified-Bolt-U.json",
+    "source_sha256": "6633e4b9fdee49f78c53db25cd9ee27c25921706ab9b461ceacd0f16e82a7a05",
+    "public_sha256": "ba8e0fe3d9d02b6dca180effb7a931d851270f54d1a0253343af1f5d1e518a59",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/Bolt-N-identity.json",
+    "source": "~/bench-bolt/provenance/download-verified-Bolt-N.json",
+    "source_sha256": "159e677ee72bb37db7239002d7d101f2086fe99a77ba53180a9288cfe5c72204",
+    "public_sha256": "4e87f99063bfa66b5f98544ff64a863d4d2d0b8881ea84cd1e9946d82bc74909",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/bolt/llama-commit.json",
+    "source": "~/bench-bolt/provenance/llama-commit.json",
+    "source_sha256": "a895b8e284754f274d2142d5463a0f1aa7e50fc782d26006952f5f26be414b1a",
+    "public_sha256": "a895b8e284754f274d2142d5463a0f1aa7e50fc782d26006952f5f26be414b1a",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/summary.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/summary.json",
+    "source_sha256": "f6bea40a1ea5d57283ecc0d471100f2c8c5487716399e3d49dd8a6ffa98abb5e",
+    "public_sha256": "c9730148f35862eef9b057bf7a04243aedf837ca483b8686347e206f3df96a44",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec2-speed-requests.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec2/speed/requests.json",
+    "source_sha256": "d791e6eb86ddfa016b114b583840565dcb66f74c30021709b93c41e36ae26a63",
+    "public_sha256": "d791e6eb86ddfa016b114b583840565dcb66f74c30021709b93c41e36ae26a63",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec2-speed-summary.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec2/speed/summary.json",
+    "source_sha256": "86cecf06ed6184468bece190c9b3d45138d96b728c8ce048625376714f594b4d",
+    "public_sha256": "86cecf06ed6184468bece190c9b3d45138d96b728c8ce048625376714f594b4d",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec2-json-requests.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec2/json/requests.json",
+    "source_sha256": "68384e461235877c1d0b9b4fcdb9806e6dc8e6a1b5a38d1d3d699bd9f64c12a5",
+    "public_sha256": "68384e461235877c1d0b9b4fcdb9806e6dc8e6a1b5a38d1d3d699bd9f64c12a5",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec2-json-scores.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec2/json/scores.json",
+    "source_sha256": "31c98e92bf946fa9e93235e4ded7ebe6d7e68cb2f9db9c69b0feea136270451f",
+    "public_sha256": "cc6040c86f3fbf42aad0fefb23b00a11939c45b2e52a1a6c7dc75be7b7d6be79",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec2-json-summary.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec2/json/summary.json",
+    "source_sha256": "f8c8e40e966d23cbf1b6b59c3613dc33bff02fa62b299d883b45475d56b96073",
+    "public_sha256": "f8c8e40e966d23cbf1b6b59c3613dc33bff02fa62b299d883b45475d56b96073",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec3-speed-requests.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec3/speed/requests.json",
+    "source_sha256": "5ea9c73def0431c7f67dbc5abf2b2e56b8f5d6337325b8fb89c32bda18cfb5a3",
+    "public_sha256": "5ea9c73def0431c7f67dbc5abf2b2e56b8f5d6337325b8fb89c32bda18cfb5a3",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec3-speed-summary.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec3/speed/summary.json",
+    "source_sha256": "86cecf06ed6184468bece190c9b3d45138d96b728c8ce048625376714f594b4d",
+    "public_sha256": "86cecf06ed6184468bece190c9b3d45138d96b728c8ce048625376714f594b4d",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec4-speed-requests.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec4/speed/requests.json",
+    "source_sha256": "2ec1d7c9aa8a20269928039074b62a4b949e1a440456ba20e05d52b32344fa61",
+    "public_sha256": "2ec1d7c9aa8a20269928039074b62a4b949e1a440456ba20e05d52b32344fa61",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/qwen-mtp-windows/spec4-speed-summary.json",
+    "source": "~/strata-trial/mtp-spec-comparison-20261111/results/spec4/speed/summary.json",
+    "source_sha256": "86cecf06ed6184468bece190c9b3d45138d96b728c8ce048625376714f594b4d",
+    "public_sha256": "86cecf06ed6184468bece190c9b3d45138d96b728c8ce048625376714f594b4d",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/lilicorr-vulkan/Bolt-U-Nnone-requests.json",
+    "source": "~/bench-bolt/lilicorr/vulkan/results/Bolt-U-Nnone/requests.json",
+    "source_sha256": "f975bcbd92f74053986fb49e8b00dc974f74f28e9ba40bfd0b73bd34038f08ff",
+    "public_sha256": "f975bcbd92f74053986fb49e8b00dc974f74f28e9ba40bfd0b73bd34038f08ff",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/lilicorr-vulkan/Bolt-U-Nnone-scores.json",
+    "source": "~/bench-bolt/lilicorr/vulkan/results/Bolt-U-Nnone/scores.json",
+    "source_sha256": "f1f637c708c949c30df27f069dc2c811315cd50779470f5f9798efd03ad07830",
+    "public_sha256": "f1f637c708c949c30df27f069dc2c811315cd50779470f5f9798efd03ad07830",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/lilicorr-vulkan/Bolt-U-N5-requests.json",
+    "source": "~/bench-bolt/lilicorr/vulkan/results/Bolt-U-N5/requests.json",
+    "source_sha256": "10ee649e17e0339c19f7aafde99b32e98dfed5939b29029bf3da696018e262ea",
+    "public_sha256": "10ee649e17e0339c19f7aafde99b32e98dfed5939b29029bf3da696018e262ea",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/lilicorr-vulkan/Bolt-U-N5-scores.json",
+    "source": "~/bench-bolt/lilicorr/vulkan/results/Bolt-U-N5/scores.json",
+    "source_sha256": "c4a3d5ff673e6b3d44aaccaf69610232a78cf94bc46fcef3a9802059e3c6f932",
+    "public_sha256": "c4a3d5ff673e6b3d44aaccaf69610232a78cf94bc46fcef3a9802059e3c6f932",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/lilicorr-vulkan/final-review.json",
+    "source": "~/bench-bolt/lilicorr/vulkan/provenance/final-review.json",
+    "source_sha256": "2dbc1d7ed42bcf8acee5e4489ab8b8e272cd3cd6138ef9184c4c8c4917015cac",
+    "public_sha256": "2dbc1d7ed42bcf8acee5e4489ab8b8e272cd3cd6138ef9184c4c8c4917015cac",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/lilicorr-vulkan/original-build.json",
+    "source": "~/bench-bolt/lilicorr/vulkan/provenance/original-build.json",
+    "source_sha256": "0875cadf5a13d6cf71ca330dd94f381c3ed0f05e7a8b3a6bf94f1cf351f786df",
+    "public_sha256": "d41d752b06b382d38195f425d3031b7ef3ed987e7465f1558a3ac9786d6055aa",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/lilicorr-vulkan/drafter-identity.json",
+    "source": "~/bench-bolt/lilicorr/vulkan/provenance/download-verified.json",
+    "source_sha256": "d2214312d1b1f826c53f15fa2c99b12f3fad27cf2c717ee511357a2bc335911a",
+    "public_sha256": "d6b384e29b845e8bea5944196a8f526997ac047ad5e833fe042f57f771d7a35a",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  },
+  {
+    "public_file": "results/lilicorr-vulkan/successful-smoke.json",
+    "source": "~/bench-bolt/lilicorr/vulkan/provenance/step0-proof.json",
+    "source_sha256": "c25e3608de4541a9a011b4fb2cdc276bfe26936f2ad4ebe7e3f7484c32bc9f4a",
+    "public_sha256": "c2635f2f99179e5ac3ed32e83fe41783728ab712b622229480669ae9ca7b8298",
+    "transformation": "Identifiers scrubbed; raw generated prose/messages/images omitted; numerical scores retained"
+  }
+]

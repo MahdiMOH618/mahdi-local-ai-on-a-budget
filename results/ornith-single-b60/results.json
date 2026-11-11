@@ -1,0 +1,80 @@
+[
+  {
+    "name": "coding-0",
+    "thinking": false,
+    "wall_seconds": 6.517,
+    "response": "[omitted]"
+  },
+  {
+    "name": "prose-0",
+    "thinking": false,
+    "wall_seconds": 2.014,
+    "response": "[omitted]"
+  },
+  {
+    "name": "math-0",
+    "thinking": false,
+    "wall_seconds": 1.617,
+    "response": "[omitted]"
+  },
+  {
+    "name": "coding-1",
+    "thinking": false,
+    "wall_seconds": 2.717,
+    "response": "[omitted]"
+  },
+  {
+    "name": "prose-1",
+    "thinking": false,
+    "wall_seconds": 1.891,
+    "response": "[omitted]"
+  },
+  {
+    "name": "math-1",
+    "thinking": false,
+    "wall_seconds": 1.468,
+    "response": "[omitted]"
+  },
+  {
+    "name": "coding-2",
+    "thinking": false,
+    "wall_seconds": 2.694,
+    "response": "[omitted]"
+  },
+  {
+    "name": "prose-2",
+    "thinking": false,
+    "wall_seconds": 1.808,
+    "response": "[omitted]"
+  },
+  {
+    "name": "math-2",
+    "thinking": false,
+    "wall_seconds": 1.454,
+    "response": "[omitted]"
+  },
+  {
+    "name": "coding-thinking",
+    "thinking": true,
+    "wall_seconds": 12.2,
+    "response": "[omitted]"
+  },
+  {
+    "name": "mrac-code-thinking",
+    "thinking": true,
+    "wall_seconds": 26.853,
+    "response": "[omitted]"
+  },
+  {
+    "name": "tool-call",
+    "thinking": true,
+    "wall_seconds": 2.189,
+    "response": "[omitted]"
+  },
+  {
+    "name": "long-context-coding",
+    "thinking": false,
+    "wall_seconds": 21.517,
+    "response": "[omitted]"
+  }
+]

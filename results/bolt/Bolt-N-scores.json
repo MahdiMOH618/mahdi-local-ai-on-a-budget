@@ -1,0 +1,879 @@
+[
+  {
+    "category": "T2",
+    "id": "retrieval-0",
+    "rep": 0,
+    "passed": true,
+    "raw_passed": true,
+    "facts_raw": 5,
+    "facts_normalized": 5,
+    "multi_hop_raw": true,
+    "multi_hop_normalized": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T3",
+    "id": "inclusive",
+    "rep": 0,
+    "passed": true,
+    "turns": 5,
+    "failed_tool_calls": 0,
+    "wall_s": 49.191055240051355,
+    "final": "[omitted]",
+    "trace": [
+      {
+        "tool": "list_dir",
+        "arguments": {},
+        "result": {
+          "files": [
+            "api.py",
+            "data.py",
+            "logic.py"
+          ]
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "api.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "data.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "logic.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "write_file",
+        "arguments": {
+          "path": "logic.py",
+          "content": "[omitted]"
+        },
+        "result": {
+          "written": true
+        }
+      },
+      {
+        "tool": "run_tests",
+        "arguments": {},
+        "result": {
+          "passed": true,
+          "exit_code": 0,
+          "summary": ".                                                                        [100%]\n1 passed in 0.01s\n"
+        }
+      }
+    ]
+  },
+  {
+    "category": "T3",
+    "id": "discount",
+    "rep": 0,
+    "passed": true,
+    "turns": 5,
+    "failed_tool_calls": 0,
+    "wall_s": 42.6756053789868,
+    "final": "[omitted]",
+    "trace": [
+      {
+        "tool": "list_dir",
+        "arguments": {},
+        "result": {
+          "files": [
+            "api.py",
+            "data.py",
+            "logic.py"
+          ]
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "api.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "data.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "logic.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "write_file",
+        "arguments": {
+          "path": "logic.py",
+          "content": "[omitted]"
+        },
+        "result": {
+          "written": true
+        }
+      },
+      {
+        "tool": "run_tests",
+        "arguments": {},
+        "result": {
+          "passed": true,
+          "exit_code": 0,
+          "summary": ".                                                                        [100%]\n1 passed in 0.01s\n"
+        }
+      }
+    ]
+  },
+  {
+    "category": "T3",
+    "id": "shipping",
+    "rep": 0,
+    "passed": true,
+    "turns": 5,
+    "failed_tool_calls": 0,
+    "wall_s": 105.9016570650274,
+    "final": "[omitted]",
+    "trace": [
+      {
+        "tool": "list_dir",
+        "arguments": {},
+        "result": {
+          "files": [
+            "api.py",
+            "data.py",
+            "logic.py"
+          ]
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "api.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "data.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "logic.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "write_file",
+        "arguments": {
+          "path": "logic.py",
+          "content": "[omitted]"
+        },
+        "result": {
+          "written": true
+        }
+      },
+      {
+        "tool": "run_tests",
+        "arguments": {},
+        "result": {
+          "passed": true,
+          "exit_code": 0,
+          "summary": ".                                                                        [100%]\n1 passed in 0.01s\n"
+        }
+      }
+    ]
+  },
+  {
+    "category": "T3",
+    "id": "invoice",
+    "rep": 0,
+    "passed": true,
+    "turns": 5,
+    "failed_tool_calls": 0,
+    "wall_s": 55.75737421598751,
+    "final": "[omitted]",
+    "trace": [
+      {
+        "tool": "list_dir",
+        "arguments": {},
+        "result": {
+          "files": [
+            "api.py",
+            "data.py",
+            "logic.py"
+          ]
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "api.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "data.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "logic.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "write_file",
+        "arguments": {
+          "path": "logic.py",
+          "content": "[omitted]"
+        },
+        "result": {
+          "written": true
+        }
+      },
+      {
+        "tool": "run_tests",
+        "arguments": {},
+        "result": {
+          "passed": true,
+          "exit_code": 0,
+          "summary": ".                                                                        [100%]\n1 passed in 0.01s\n"
+        }
+      }
+    ]
+  },
+  {
+    "category": "T3",
+    "id": "ordered-cache",
+    "rep": 0,
+    "passed": true,
+    "turns": 6,
+    "failed_tool_calls": 0,
+    "wall_s": 56.771087362023536,
+    "final": "[omitted]",
+    "trace": [
+      {
+        "tool": "list_dir",
+        "arguments": {},
+        "result": {
+          "files": [
+            "api.py",
+            "data.py",
+            "logic.py"
+          ]
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "api.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "data.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "logic.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "run_tests",
+        "arguments": {},
+        "result": {
+          "passed": false,
+          "exit_code": 1,
+          "summary": "F.                                                                       [100%]\n=========================== short test summary info ============================\nFAILED ../../../tests/grading/ordered-cache/test_hidden.py::test_direction_state\n1 failed, 1 passed in 0.01s\n"
+        }
+      },
+      {
+        "tool": "write_file",
+        "arguments": {
+          "path": "logic.py",
+          "content": "[omitted]"
+        },
+        "result": {
+          "written": true
+        }
+      },
+      {
+        "tool": "run_tests",
+        "arguments": {},
+        "result": {
+          "passed": true,
+          "exit_code": 0,
+          "summary": "..                                                                       [100%]\n2 passed in 0.01s\n"
+        }
+      }
+    ]
+  },
+  {
+    "category": "T3",
+    "id": "stable-scheduler",
+    "rep": 0,
+    "passed": true,
+    "turns": 6,
+    "failed_tool_calls": 0,
+    "wall_s": 68.84215262101498,
+    "final": "[omitted]",
+    "trace": [
+      {
+        "tool": "list_dir",
+        "arguments": {},
+        "result": {
+          "files": [
+            "api.py",
+            "data.py",
+            "logic.py"
+          ]
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "api.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "data.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "read_file",
+        "arguments": {
+          "path": "logic.py"
+        },
+        "result": {
+          "text": "[omitted]"
+        }
+      },
+      {
+        "tool": "run_tests",
+        "arguments": {},
+        "result": {
+          "passed": false,
+          "exit_code": 1,
+          "summary": "FF                                                                       [100%]\n=========================== short test summary info ============================\nFAILED ../../../tests/grading/stable-scheduler/test_hidden.py::test_fifo_ties\nFAILED ../../../tests/grading/stable-scheduler/test_hidden.py::test_interleaved\n2 failed in 0.01s\n"
+        }
+      },
+      {
+        "tool": "write_file",
+        "arguments": {
+          "path": "logic.py",
+          "content": "[omitted]"
+        },
+        "result": {
+          "written": true
+        }
+      },
+      {
+        "tool": "run_tests",
+        "arguments": {},
+        "result": {
+          "passed": true,
+          "exit_code": 0,
+          "summary": "..                                                                       [100%]\n2 passed in 0.01s\n"
+        }
+      }
+    ]
+  },
+  {
+    "category": "T4",
+    "id": "1",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "2",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "3",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "4",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "5",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "6",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "7",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "8",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "9",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T4",
+    "id": "10",
+    "rep": 0,
+    "passed": true,
+    "answer": "[omitted]",
+    "finish_reason": "stop"
+  },
+  {
+    "category": "T5",
+    "id": "lookup",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "ALPHA"
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "ALPHA"
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "multiply",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "multiply",
+        {
+          "a": 13,
+          "b": 17
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "multiply",
+        {
+          "a": 13,
+          "b": 17
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "read",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "read_note",
+        {
+          "name": "colour.txt"
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "read_note",
+        {
+          "name": "colour.txt"
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "write",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": false,
+    "passed": false,
+    "completed": true,
+    "expected_calls": [
+      [
+        "write_note",
+        {
+          "name": "receipt.txt",
+          "text": "[omitted]"
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "write_note",
+        {
+          "name": "receipt.txt",
+          "text": "[omitted]"
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": false,
+    "strict_format": false
+  },
+  {
+    "category": "T5",
+    "id": "lookup-chain",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "BETA"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 9,
+          "b": 4
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "BETA"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 9,
+          "b": 4
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "read-chain",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "read_note",
+        {
+          "name": "factor.txt"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 12,
+          "b": 8
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "read_note",
+        {
+          "name": "factor.txt"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 12,
+          "b": 8
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "write-read",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "write_note",
+        {
+          "name": "ticket.txt",
+          "text": "[omitted]"
+        }
+      ],
+      [
+        "read_note",
+        {
+          "name": "ticket.txt"
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "write_note",
+        {
+          "name": "ticket.txt",
+          "text": "[omitted]"
+        }
+      ],
+      [
+        "read_note",
+        {
+          "name": "ticket.txt"
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "lookup-chain-2",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "GAMMA"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 5,
+          "b": 11
+        }
+      ]
+    ],
+    "actual_calls": [
+      [
+        "lookup_record",
+        {
+          "record_id": "GAMMA"
+        }
+      ],
+      [
+        "multiply",
+        {
+          "a": 5,
+          "b": 11
+        }
+      ]
+    ],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "no-tool-arithmetic",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [],
+    "actual_calls": [],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  },
+  {
+    "category": "T5",
+    "id": "no-tool-copy",
+    "rep": 0,
+    "selection_correct": true,
+    "valid_arguments": true,
+    "expected_arguments": true,
+    "execution_success": true,
+    "dependency_order_correct": true,
+    "final_answer_correct": true,
+    "passed": true,
+    "completed": true,
+    "expected_calls": [],
+    "actual_calls": [],
+    "final": "[omitted]",
+    "structured_final": true,
+    "strict_format": true
+  }
+]

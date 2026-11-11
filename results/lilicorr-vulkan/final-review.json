@@ -1,0 +1,45 @@
+{
+  "reviewed_at": "2026-11-11T13:50:01.228837+00:00",
+  "completed": true,
+  "data": {
+    "Bolt-U-Nnone": {
+      "output_tps": 8.781385634601698,
+      "input_tps": 222.52160358866269,
+      "local_TTFT_s": 4.78860391600756,
+      "output_range": [
+        8.771524931669221,
+        8.806012117796458
+      ],
+      "drafted": 0,
+      "accepted": 0,
+      "acceptance": null,
+      "VRAM_GiB": [
+        13.097427368164062,
+        16.57988739013672
+      ]
+    },
+    "Bolt-U-N5": {
+      "output_tps": 12.037825533368133,
+      "input_tps": 206.66375346277047,
+      "local_TTFT_s": 5.153627509018406,
+      "output_range": [
+        8.804930402625173,
+        12.950041502222048
+      ],
+      "drafted": 1848,
+      "accepted": 1159,
+      "acceptance": 0.6271645021645021,
+      "VRAM_GiB": [
+        14.287361145019531,
+        17.830387115478516
+      ]
+    }
+  },
+  "warnings": [],
+  "frozen_files_unchanged": 49,
+  "original_build_unchanged": true,
+  "four_production_hashes_match": true,
+  "saved_READY_verified_without_duplicate_generation": true,
+  "report_sha256": "f790899fc9c2e3501d632d4103b90da91f941f99b11d5ebfb5227130a8750482",
+  "restored_runtime_backend_label_corrected_offline": true
+}

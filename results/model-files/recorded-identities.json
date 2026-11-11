@@ -1,0 +1,185 @@
+{
+  "artifacts": [
+    {
+      "file": "MedGemma-4B-IT-SFTCTIQA-Q8_0.gguf",
+      "sha256": "b52f94ddac409e91a8d3ea7c299e6e17ede2ddeb0c7f90e9c2e09a1484525416",
+      "bytes": 4138605216,
+      "basis": "MedGemma SFTCTIQA benchmark/verified-model-files.json"
+    },
+    {
+      "file": "Ministral-3-8B-Instruct-2512-BF16-mmproj.gguf",
+      "sha256": "e799380f596d152ff4026a72d409ecc89c96cd437676804bc3f2ab3bd6b486ec",
+      "bytes": null,
+      "basis": "Ministral 3 8B review benchmark/download.log"
+    },
+    {
+      "file": "Ministral-3-8B-Instruct-2512-Q4_K_M.gguf",
+      "sha256": "33e7a72cf5e6e2cfc2f2847075acc013d68bba023e35310cef86b5cf8fdca761",
+      "bytes": null,
+      "basis": "Ministral 3 8B review benchmark/download.log"
+    },
+    {
+      "file": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB-LiLiCorr.gguf",
+      "sha256": "080e1ea41c9562a7804dbf30c6fbd4d17e216c6b8ff666f88e6edb1816010194",
+      "bytes": 998242560,
+      "basis": "LiLiCorr verified download"
+    },
+    {
+      "file": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB.gguf",
+      "sha256": "91d63363e782c8a3d5f4be42816eba8e0d42dd2530bd07a7d0d2dc440599af75",
+      "bytes": 22018326528,
+      "basis": "Bolt verified download"
+    },
+    {
+      "file": "NVIDIA-Nemotron-3.5-Bolt-74B-A9B-Uncensored-AD-IQ2_XS.gguf",
+      "sha256": "2a34284e72544cc35dc0bfa5f917e80678a390107de3bf6d7c5ed49c94a7c003",
+      "bytes": 29080644960,
+      "basis": "Bolt verified download"
+    },
+    {
+      "file": "OpenGVLab_InternVL3_5-8B-Q4_K_M.gguf",
+      "sha256": "f3792d241a77a88be986445fed2498489e7360947ae4556e58cb0833e9fbc697",
+      "bytes": 5027780800,
+      "basis": "Qwen3 VL 8B Thinking test/download-internvl.py"
+    },
+    {
+      "file": "Ornith-1.5-35B-Q4_K_M.gguf",
+      "sha256": "42739874cc2ccfdb8523b23fbe52e29b2a7555c8176737ca9ca0b5d59859d41f",
+      "bytes": 21713463040,
+      "basis": "Ornith final report"
+    },
+    {
+      "file": "Qwen3-VL-8B-Thinking-Q5_K_M.gguf",
+      "sha256": "b9456711ec18a6157910000ed50ef19da39ea831f54cfee1452a6e163dce1395",
+      "bytes": 5851114784,
+      "basis": "Qwen3 VL 8B Thinking test/download.py"
+    },
+    {
+      "file": "Qwen3.5-9B-Q4_K_M.gguf",
+      "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+      "bytes": 5680522464,
+      "basis": "Qwen9B final report"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-GSQ-RCO-IQ2_XS-00001-of-00002.gguf",
+      "sha256": "92cee27ae5bbadcd732416a0f7a7f0acc092399dbbe8f5a5efa707c2ec0a49d7",
+      "bytes": 39225954592,
+      "basis": "Q2 base verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-GSQ-RCO-IQ2_XS-00002-of-00002.gguf",
+      "sha256": "316b46f3a2dbd68c900f43136ab9449f9dcc3725dfd8c794847c204bc161e113",
+      "bytes": 28800138432,
+      "basis": "Q2 base verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-Huihui-IQ2_XS-00001-of-00002.gguf",
+      "sha256": "4bcc2e159dd4af95f3b384356db8beacbbfba8fb543ee988c66e913dbabc2d0c",
+      "bytes": 39446278528,
+      "basis": "historical Qwen baseline hash record"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-Huihui-IQ2_XS-00002-of-00002.gguf",
+      "sha256": "316b46f3a2dbd68c900f43136ab9449f9dcc3725dfd8c794847c204bc161e113",
+      "bytes": 28800138432,
+      "basis": "historical Qwen baseline hash record"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-UD-Q3_K_XL-00001-of-00004.gguf",
+      "sha256": "e0b7f96d4067693c3d1a3856110c42b7ed4816e3244d8f668193fe6de8ccdcb2",
+      "bytes": 10946624,
+      "basis": "locally patched quant verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-UD-Q3_K_XL-00002-of-00004.gguf",
+      "sha256": "ce800dea5be6cafc29526da51c32f8f8641c742e5580864c14fd46851d7beb34",
+      "bytes": 49742117248,
+      "basis": "locally patched quant verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-UD-Q3_K_XL-00003-of-00004.gguf",
+      "sha256": "fcce26b1e5e6e54559a7e7c2f8d6e37067ec695ff1f14bce662810bde78abe1f",
+      "bytes": 10911746208,
+      "basis": "locally patched quant verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-UD-Q3_K_XL-00004-of-00004.gguf",
+      "sha256": "5de8b5dbf89409acc39468decafd4a4a95b13c29d88a14b0356107897829ec36",
+      "bytes": 28800138432,
+      "basis": "locally patched quant verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-UD-Q4_K_XL-00001-of-00004.gguf",
+      "sha256": "4448186216b3af4cc558bbce2c3213f01608f8f8b2e5267a9767971dd3ec8082",
+      "bytes": 10946624,
+      "basis": "locally patched quant verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-UD-Q4_K_XL-00002-of-00004.gguf",
+      "sha256": "9daface33dd2a9e80885f1dbe806d4d7da99c30c684ecd516b09258584597509",
+      "bytes": 49720539552,
+      "basis": "locally patched quant verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-UD-Q4_K_XL-00003-of-00004.gguf",
+      "sha256": "ef9be9e7958d2eef58bcced2cd7eaf4c4394401d3a97c08f07d1ab2652a0068e",
+      "bytes": 32803030176,
+      "basis": "locally patched quant verification"
+    },
+    {
+      "file": "Qwen3.8-Flash-Next-UD-Q4_K_XL-00004-of-00004.gguf",
+      "sha256": "5de8b5dbf89409acc39468decafd4a4a95b13c29d88a14b0356107897829ec36",
+      "bytes": 28800138432,
+      "basis": "locally patched quant verification"
+    },
+    {
+      "file": "Youtu-VL-4B-Instruct-Q8_0.gguf",
+      "sha256": "0a426714dedc67b8759000f7540e6b4127a97ad2ff380638f8189aec860c72a0",
+      "bytes": null,
+      "basis": "Youtu VL 4B benchmark/download.log"
+    },
+    {
+      "file": "gemma-4-E4B-it-Q4_K_M.gguf",
+      "sha256": "85a896a047553e842f25297ee5b031d64ff30147d9c4af17b1e4b394cd1fab87",
+      "bytes": null,
+      "basis": "Gemma 4 E4B benchmark/download.log"
+    },
+    {
+      "file": "mmproj-F16.gguf",
+      "sha256": "64d5be3f16fb91cfb451155fe4745266e2169ccbe1f29f57bfab27fb7fec389e",
+      "bytes": 1159030336,
+      "basis": "Qwen3 VL 8B Thinking test/download.py"
+    },
+    {
+      "file": "mmproj-F16.gguf",
+      "sha256": "ddf46c21d7078e95338cfc22306b19b276a29a5ad089023449dd54d4b6170a51",
+      "bytes": null,
+      "basis": "Gemma 4 E4B benchmark/download.log"
+    },
+    {
+      "file": "mmproj-MedGemma-4B-IT-SFTCTIQA-F16.gguf",
+      "sha256": "b47f4d15579575beb30738d94653c78cc2533343bf5b6a14e6ac533c615ba638",
+      "bytes": 851251744,
+      "basis": "MedGemma SFTCTIQA benchmark/verified-model-files.json"
+    },
+    {
+      "file": "mmproj-OpenGVLab_InternVL3_5-8B-f16.gguf",
+      "sha256": "212cc090f81ea2981b870186d4b424fae69489a5313a14e52ffdb2e877852389",
+      "bytes": 678065568,
+      "basis": "Qwen3 VL 8B Thinking test/download-internvl.py"
+    },
+    {
+      "file": "mmproj-Qwen3.5-9B-F16.gguf",
+      "sha256": "f70dc3509053962b0d0d3ee8a7eacebf5d60aa560cad78254ae8698516ae029f",
+      "bytes": 918166080,
+      "basis": "Qwen9B final report"
+    },
+    {
+      "file": "mmproj-Youtu-VL-4b-Instruct-BF16.gguf",
+      "sha256": "1bcb2b7a99687be9a47e9bf27ee96237b73fe94b6fda938b17b18e7d4f92f9f2",
+      "bytes": null,
+      "basis": "Youtu VL 4B benchmark/download.log"
+    }
+  ],
+  "historical_gap": "Original MedGemma1.5-4B Q8 hash not recovered from available final reports; do not substitute an unverified current upstream hash."
+}

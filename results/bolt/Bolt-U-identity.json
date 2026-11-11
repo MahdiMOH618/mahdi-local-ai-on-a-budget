@@ -1,0 +1,6 @@
+{
+  "path": "~/bench-bolt/models/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-Uncensored-AD-IQ2_XS.gguf",
+  "bytes": 29080644960,
+  "sha256": "2a34284e72544cc35dc0bfa5f917e80678a390107de3bf6d7c5ed49c94a7c003",
+  "revision": "7db849cc4d9d064833d037c9ac896a9e58e8573a"
+}

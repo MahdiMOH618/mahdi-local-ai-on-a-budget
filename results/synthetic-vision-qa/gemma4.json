@@ -1,0 +1,936 @@
+[
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 15.169106315996032,
+    "start_time": 1793339130.2084877,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C041",
+    "category": "tool-use",
+    "policy": "native4096",
+    "elapsed_seconds": 14.673281875999237,
+    "start_time": 1793339145.3845248,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C041",
+    "category": "tool-use",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 14.393171916002757,
+    "start_time": 1793339160.059064,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C016",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 12.764076473999012,
+    "start_time": 1793339174.4592476,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C019",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 10.056158218998462,
+    "start_time": 1793339187.2291086,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C037",
+    "category": "14-insufficient",
+    "policy": "native4096",
+    "elapsed_seconds": 14.420515017998696,
+    "start_time": 1793339197.2910705,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C020",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 12.680457711998315,
+    "start_time": 1793339211.7174304,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C009",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 12.860490220999054,
+    "start_time": 1793339224.4031854,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C004",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 14.286746826997842,
+    "start_time": 1793339237.2709289,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": -20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "policy": "native4096",
+    "elapsed_seconds": 12.639110935000645,
+    "start_time": 1793339251.5633364,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "scale_factor": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C013",
+    "category": "4-coverage",
+    "policy": "native4096",
+    "elapsed_seconds": 15.150410945003387,
+    "start_time": 1793339264.2095654,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 13.99995606399898,
+    "start_time": 1793339279.366446,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 5,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C025",
+    "category": "8-scaling",
+    "policy": "native4096",
+    "elapsed_seconds": 13.447930909002025,
+    "start_time": 1793339293.3721545,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C032",
+    "category": "11-reconstruction",
+    "policy": "native4096",
+    "elapsed_seconds": 20.087804889000836,
+    "start_time": 1793339306.827758,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": 2,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C023",
+    "category": "7-conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 13.869349644002796,
+    "start_time": 1793339326.922008,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C002",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 12.426877689998946,
+    "start_time": 1793339340.7991812,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C031",
+    "category": "11-reconstruction",
+    "policy": "native4096",
+    "elapsed_seconds": 21.163923737003643,
+    "start_time": 1793339353.2325542,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C029",
+    "category": "10-provenance",
+    "policy": "native4096",
+    "elapsed_seconds": 12.883437304997642,
+    "start_time": 1793339374.4069874,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C033",
+    "category": "12-display",
+    "policy": "native4096",
+    "elapsed_seconds": 19.340125898001133,
+    "start_time": 1793339387.3036435,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C040",
+    "category": "capacity",
+    "policy": "native4096",
+    "elapsed_seconds": 19.165635477998876,
+    "start_time": 1793339406.6503828,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C012",
+    "category": "3-orientation",
+    "policy": "native4096",
+    "elapsed_seconds": 19.37727510399418,
+    "start_time": 1793339425.8225877,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C026",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 21.4753996990039,
+    "start_time": 1793339445.2067018,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C030",
+    "category": "10-provenance",
+    "policy": "native4096",
+    "elapsed_seconds": 10.805666966996796,
+    "start_time": 1793339466.6886525,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C001",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 13.687551779003115,
+    "start_time": 1793339477.5007071,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C039",
+    "category": "15-repeatability",
+    "policy": "native4096",
+    "elapsed_seconds": 13.664418640000804,
+    "start_time": 1793339491.1938446,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C006",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 11.719524352003646,
+    "start_time": 1793339504.865213,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -40,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 12.766897462999623,
+    "start_time": 1793339516.5912883,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "required_translation_mm": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C038",
+    "category": "15-repeatability",
+    "policy": "native4096",
+    "elapsed_seconds": 13.708999643000425,
+    "start_time": 1793339529.3676646,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C005",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 14.431860451993998,
+    "start_time": 1793339543.086691,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 40,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C014",
+    "category": "4-coverage",
+    "policy": "native4096",
+    "elapsed_seconds": 14.70049642700178,
+    "start_time": 1793339557.5255709,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C010",
+    "category": "13-correct-control",
+    "policy": "native4096",
+    "elapsed_seconds": 13.701673896001012,
+    "start_time": 1793339572.2322657,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C011",
+    "category": "3-orientation",
+    "policy": "native4096",
+    "elapsed_seconds": 14.816843312000856,
+    "start_time": 1793339585.9426875,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C008",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "elapsed_seconds": 13.468258588996832,
+    "start_time": 1793339600.7686367,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C018",
+    "category": "6-pseudoCT",
+    "policy": "native4096",
+    "elapsed_seconds": 13.01851739200356,
+    "start_time": 1793339614.2445269,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C017",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 13.034769919002429,
+    "start_time": 1793339627.2708085,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C034",
+    "category": "12-display",
+    "policy": "native4096",
+    "elapsed_seconds": 18.28492991299572,
+    "start_time": 1793339640.31323,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C003",
+    "category": "1-shifts",
+    "policy": "native4096",
+    "elapsed_seconds": 13.164019378993544,
+    "start_time": 1793339658.6061065,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C027",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 19.13560222199885,
+    "start_time": 1793339671.777617,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C022",
+    "category": "7-conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 16.25165072800155,
+    "start_time": 1793339690.9205232,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C036",
+    "category": "14-insufficient",
+    "policy": "native4096",
+    "elapsed_seconds": 12.871525136004493,
+    "start_time": 1793339707.1813548,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C015",
+    "category": "5-segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 13.663054081000155,
+    "start_time": 1793339720.0608196,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "gemma4-e4b-it-q4",
+    "case_id": "C035",
+    "category": "13-correct-control",
+    "policy": "native4096",
+    "elapsed_seconds": 11.885433014998853,
+    "start_time": 1793339733.7318048,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  }
+]

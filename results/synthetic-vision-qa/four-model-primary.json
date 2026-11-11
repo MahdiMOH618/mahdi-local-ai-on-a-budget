@@ -1,0 +1,4019 @@
+[
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "name": "slice_discontinuity",
+    "policy": "native4096",
+    "elapsed_seconds": 113.34359097999914,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "name": "slice_discontinuity",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 64.52302363499984,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C041",
+    "category": "tool-use",
+    "name": "measurement_tool_selection",
+    "policy": "native4096",
+    "elapsed_seconds": 21.920331114000874,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "case_pass": true,
+      "tool_calls": [
+        {
+          "type": "function",
+          "function": {
+            "name": "measure_alignment",
+            "arguments": "{\"reference\": \"ref.nii.gz\", \"comparison\": \"moving.nii.gz\"}"
+          },
+          "id": "rzSeIFaKGU2PSxW5UlHPWncoo1woNPnV"
+        }
+      ]
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C016",
+    "category": "5-segmentation",
+    "name": "tissue_mislabel",
+    "policy": "native4096",
+    "elapsed_seconds": 48.02943403400059,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C019",
+    "category": "6-pseudoCT",
+    "name": "missing_bone",
+    "policy": "native4096",
+    "elapsed_seconds": 109.56752156400034,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C019",
+    "category": "6-pseudoCT",
+    "name": "missing_bone",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 60.07322242199734,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C037",
+    "category": "14-insufficient",
+    "name": "alignment_without_geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 24.086028474997875,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C020",
+    "category": "6-pseudoCT",
+    "name": "internal_hole",
+    "policy": "native4096",
+    "elapsed_seconds": 83.43494342900158,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C009",
+    "category": "2-rotation",
+    "name": "rotation_20",
+    "policy": "native4096",
+    "elapsed_seconds": 53.731844972000545,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C004",
+    "category": "1-shifts",
+    "name": "translation_0_-20",
+    "policy": "native4096",
+    "elapsed_seconds": 82.56833055099924,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "policy": "native4096",
+    "error": "AttributeError(\"'NoneType' object has no attribute 'get'\")"
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C013",
+    "category": "4-coverage",
+    "name": "cropped_anatomy",
+    "policy": "native4096",
+    "elapsed_seconds": 56.01501615199959,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "name": "rotation_5",
+    "policy": "native4096",
+    "elapsed_seconds": 37.844924474000436,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 5,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C025",
+    "category": "8-scaling",
+    "name": "equivalent_units_control",
+    "policy": "native4096",
+    "elapsed_seconds": 63.569334769003035,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C032",
+    "category": "11-reconstruction",
+    "name": "small_difference_control",
+    "policy": "native4096",
+    "elapsed_seconds": 53.491219458999694,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": 2,
+          "observed": 2.0,
+          "tolerance": 0.1,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C023",
+    "category": "7-conversion",
+    "name": "wrong_HU_mapping",
+    "policy": "native4096",
+    "elapsed_seconds": 46.20076759699805,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C002",
+    "category": "1-shifts",
+    "name": "translation_-10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 54.51485766599944,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": -10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C031",
+    "category": "11-reconstruction",
+    "name": "regional_bias",
+    "policy": "native4096",
+    "elapsed_seconds": 48.32432834299834,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": -10,
+          "observed": 10,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C029",
+    "category": "10-provenance",
+    "name": "CT_density_leak",
+    "policy": "native4096",
+    "elapsed_seconds": 15.209601364000264,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C033",
+    "category": "12-display",
+    "name": "window_level_trap",
+    "policy": "native4096",
+    "elapsed_seconds": 18.385496443999727,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C040",
+    "category": "capacity",
+    "name": "large_report_three_images",
+    "policy": "native4096",
+    "elapsed_seconds": 27.884995260999858,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C012",
+    "category": "3-orientation",
+    "name": "valid_LPS_RAS_conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 22.648955524000485,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C026",
+    "category": "9-geometry",
+    "name": "spacing_changed_without_resampling",
+    "policy": "native4096",
+    "elapsed_seconds": 100.6986926210011,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C030",
+    "category": "10-provenance",
+    "name": "MRI_map_control",
+    "policy": "native4096",
+    "elapsed_seconds": 12.800344797000434,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C001",
+    "category": "1-shifts",
+    "name": "translation_10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 42.535183255997254,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C039",
+    "category": "15-repeatability",
+    "name": "repeat_translation_10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 42.14054839199889,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C006",
+    "category": "1-shifts",
+    "name": "translation_0_-40",
+    "policy": "native4096",
+    "elapsed_seconds": 40.8167403510015,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": -40,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "policy": "native4096",
+    "error": "AttributeError(\"'NoneType' object has no attribute 'get'\")"
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C038",
+    "category": "15-repeatability",
+    "name": "repeat_aligned_pair",
+    "policy": "native4096",
+    "elapsed_seconds": 59.179181967996556,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C005",
+    "category": "1-shifts",
+    "name": "translation_40_0",
+    "policy": "native4096",
+    "elapsed_seconds": 43.49641027800317,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 40,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C014",
+    "category": "4-coverage",
+    "name": "incomplete_map",
+    "policy": "native4096",
+    "elapsed_seconds": 37.90672962899771,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C010",
+    "category": "13-correct-control",
+    "name": "aligned_pair",
+    "policy": "native4096",
+    "elapsed_seconds": 59.32376727500014,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C011",
+    "category": "3-orientation",
+    "name": "array_flip_without_geometry_update",
+    "policy": "native4096",
+    "elapsed_seconds": 66.04747579800096,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C008",
+    "category": "2-rotation",
+    "name": "rotation_-10",
+    "policy": "native4096",
+    "elapsed_seconds": 104.80954540400126,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C008",
+    "category": "2-rotation",
+    "name": "rotation_-10",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 56.99264430800031,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C018",
+    "category": "6-pseudoCT",
+    "name": "false_bone",
+    "policy": "native4096",
+    "elapsed_seconds": 70.07894228499936,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C017",
+    "category": "5-segmentation",
+    "name": "mask_outside_body",
+    "policy": "native4096",
+    "elapsed_seconds": 40.99133821199939,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C034",
+    "category": "12-display",
+    "name": "colour_scale_trap",
+    "policy": "native4096",
+    "elapsed_seconds": 18.613279835997673,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C003",
+    "category": "1-shifts",
+    "name": "translation_0_20",
+    "policy": "native4096",
+    "elapsed_seconds": 104.61314378599855,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C003",
+    "category": "1-shifts",
+    "name": "translation_0_20",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 55.99682163200123,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C027",
+    "category": "9-geometry",
+    "name": "wrong_origin",
+    "policy": "native4096",
+    "elapsed_seconds": 48.555454198001826,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C022",
+    "category": "7-conversion",
+    "name": "wrong_photon_energy",
+    "policy": "native4096",
+    "elapsed_seconds": 98.96879969800284,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C036",
+    "category": "14-insufficient",
+    "name": "screenshots_without_coefficients",
+    "policy": "native4096",
+    "elapsed_seconds": 24.92649879199962,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C015",
+    "category": "5-segmentation",
+    "name": "missing_bone_label",
+    "policy": "native4096",
+    "elapsed_seconds": 32.52292618700085,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C035",
+    "category": "13-correct-control",
+    "name": "normal_segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 66.86836109499927,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "name": "slice_discontinuity",
+    "policy": "native4096",
+    "elapsed_seconds": 98.69249937400309,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "name": "slice_discontinuity",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 55.326043904999096,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C041",
+    "category": "tool-use",
+    "name": "measurement_tool_selection",
+    "policy": "native4096",
+    "elapsed_seconds": 96.43388206300006,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C041",
+    "category": "tool-use",
+    "name": "measurement_tool_selection",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 51.89981680899655,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "case_pass": true,
+      "tool_calls": [
+        {
+          "type": "function",
+          "function": {
+            "name": "measure_alignment",
+            "arguments": "{\"reference\":\"ref.nii.gz\",\"comparison\":\"moving.nii.gz\"}"
+          },
+          "id": "8bxjjmI26oPXLhckN3oz2AeoC4ohfH1x"
+        }
+      ]
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C016",
+    "category": "5-segmentation",
+    "name": "tissue_mislabel",
+    "policy": "native4096",
+    "elapsed_seconds": 78.33533236700168,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C019",
+    "category": "6-pseudoCT",
+    "name": "missing_bone",
+    "policy": "native4096",
+    "elapsed_seconds": 62.03168147999895,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C037",
+    "category": "14-insufficient",
+    "name": "alignment_without_geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 36.610176694000984,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C020",
+    "category": "6-pseudoCT",
+    "name": "internal_hole",
+    "policy": "native4096",
+    "elapsed_seconds": 96.0077880179997,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C020",
+    "category": "6-pseudoCT",
+    "name": "internal_hole",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 53.3715175920006,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C009",
+    "category": "2-rotation",
+    "name": "rotation_20",
+    "policy": "native4096",
+    "elapsed_seconds": 96.09046997000041,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C009",
+    "category": "2-rotation",
+    "name": "rotation_20",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 53.10946110900113,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 20,
+          "observed": -10.0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C004",
+    "category": "1-shifts",
+    "name": "translation_0_-20",
+    "policy": "native4096",
+    "elapsed_seconds": 16.62717989900193,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": -20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "policy": "native4096",
+    "error": "AttributeError(\"'NoneType' object has no attribute 'get'\")"
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C013",
+    "category": "4-coverage",
+    "name": "cropped_anatomy",
+    "policy": "native4096",
+    "elapsed_seconds": 56.193073444999754,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "policy": "native4096",
+    "error": "AttributeError(\"'NoneType' object has no attribute 'get'\")"
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C025",
+    "category": "8-scaling",
+    "name": "equivalent_units_control",
+    "policy": "native4096",
+    "elapsed_seconds": 41.78046610099773,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C032",
+    "category": "11-reconstruction",
+    "name": "small_difference_control",
+    "policy": "native4096",
+    "elapsed_seconds": 68.71171093700104,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": 2,
+          "observed": 2.0,
+          "tolerance": 0.1,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C023",
+    "category": "7-conversion",
+    "name": "wrong_HU_mapping",
+    "policy": "native4096",
+    "elapsed_seconds": 35.14083873300115,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C002",
+    "category": "1-shifts",
+    "name": "translation_-10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 23.278672044001723,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": -10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C031",
+    "category": "11-reconstruction",
+    "name": "regional_bias",
+    "policy": "native4096",
+    "elapsed_seconds": 54.06816465600059,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": -10,
+          "observed": -10.0,
+          "tolerance": 0.1,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C029",
+    "category": "10-provenance",
+    "name": "CT_density_leak",
+    "policy": "native4096",
+    "elapsed_seconds": 93.28547007100133,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C029",
+    "category": "10-provenance",
+    "name": "CT_density_leak",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 50.27385097300066,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C033",
+    "category": "12-display",
+    "name": "window_level_trap",
+    "policy": "native4096",
+    "elapsed_seconds": 60.780456266998954,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C040",
+    "category": "capacity",
+    "name": "large_report_three_images",
+    "policy": "native4096",
+    "elapsed_seconds": 31.22700034800073,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C012",
+    "category": "3-orientation",
+    "name": "valid_LPS_RAS_conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 35.17425088500022,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C026",
+    "category": "9-geometry",
+    "name": "spacing_changed_without_resampling",
+    "policy": "native4096",
+    "elapsed_seconds": 68.2439278899983,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C030",
+    "category": "10-provenance",
+    "name": "MRI_map_control",
+    "policy": "native4096",
+    "elapsed_seconds": 27.478248163999524,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C001",
+    "category": "1-shifts",
+    "name": "translation_10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 33.496766828000546,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0.0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0.0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C039",
+    "category": "15-repeatability",
+    "name": "repeat_translation_10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 33.297019094999996,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0.0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0.0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C006",
+    "category": "1-shifts",
+    "name": "translation_0_-40",
+    "policy": "native4096",
+    "elapsed_seconds": 96.2713508880006,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C006",
+    "category": "1-shifts",
+    "name": "translation_0_-40",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 54.58776731299804,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -40,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "name": "transform_direction",
+    "policy": "native4096",
+    "elapsed_seconds": 95.37165132099835,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "name": "transform_direction",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 51.62272778999977,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "required_translation_mm": {
+          "expected": -10,
+          "observed": [
+            -10,
+            0,
+            0
+          ],
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C038",
+    "category": "15-repeatability",
+    "name": "repeat_aligned_pair",
+    "policy": "native4096",
+    "elapsed_seconds": 17.66963306300022,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C005",
+    "category": "1-shifts",
+    "name": "translation_40_0",
+    "policy": "native4096",
+    "elapsed_seconds": 34.20069504800267,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 40,
+          "observed": 64,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C014",
+    "category": "4-coverage",
+    "name": "incomplete_map",
+    "policy": "native4096",
+    "elapsed_seconds": 24.566429133999918,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C010",
+    "category": "13-correct-control",
+    "name": "aligned_pair",
+    "policy": "native4096",
+    "elapsed_seconds": 17.612420544999623,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C011",
+    "category": "3-orientation",
+    "name": "array_flip_without_geometry_update",
+    "policy": "native4096",
+    "elapsed_seconds": 96.47687099399991,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C011",
+    "category": "3-orientation",
+    "name": "array_flip_without_geometry_update",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 54.20080982100262,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C008",
+    "category": "2-rotation",
+    "name": "rotation_-10",
+    "policy": "native4096",
+    "elapsed_seconds": 60.12982735500191,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": -10,
+          "observed": 0.0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C018",
+    "category": "6-pseudoCT",
+    "name": "false_bone",
+    "policy": "native4096",
+    "elapsed_seconds": 54.3629749899992,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C017",
+    "category": "5-segmentation",
+    "name": "mask_outside_body",
+    "policy": "native4096",
+    "elapsed_seconds": 36.307108226999844,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C034",
+    "category": "12-display",
+    "name": "colour_scale_trap",
+    "policy": "native4096",
+    "elapsed_seconds": 94.4787761660009,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C003",
+    "category": "1-shifts",
+    "name": "translation_0_20",
+    "policy": "native4096",
+    "elapsed_seconds": 56.06171814499976,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C027",
+    "category": "9-geometry",
+    "name": "wrong_origin",
+    "policy": "native4096",
+    "elapsed_seconds": 39.895656597997004,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C022",
+    "category": "7-conversion",
+    "name": "wrong_photon_energy",
+    "policy": "native4096",
+    "elapsed_seconds": 49.072981504999916,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C036",
+    "category": "14-insufficient",
+    "name": "screenshots_without_coefficients",
+    "policy": "native4096",
+    "elapsed_seconds": 27.247425874000328,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C015",
+    "category": "5-segmentation",
+    "name": "missing_bone_label",
+    "policy": "native4096",
+    "elapsed_seconds": 97.38582549100101,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C015",
+    "category": "5-segmentation",
+    "name": "missing_bone_label",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 53.8651181560017,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C035",
+    "category": "13-correct-control",
+    "name": "normal_segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 29.153333344998828,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "name": "slice_discontinuity",
+    "policy": "native4096",
+    "elapsed_seconds": 10.315350346998457,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C041",
+    "category": "tool-use",
+    "name": "measurement_tool_selection",
+    "policy": "native4096",
+    "elapsed_seconds": 14.211033714000223,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C041",
+    "category": "tool-use",
+    "name": "measurement_tool_selection",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 13.876864072997705,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C016",
+    "category": "5-segmentation",
+    "name": "tissue_mislabel",
+    "policy": "native4096",
+    "elapsed_seconds": 15.396812539001985,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C019",
+    "category": "6-pseudoCT",
+    "name": "missing_bone",
+    "policy": "native4096",
+    "elapsed_seconds": 21.5211082479982,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C037",
+    "category": "14-insufficient",
+    "name": "alignment_without_geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 18.193313244999445,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C020",
+    "category": "6-pseudoCT",
+    "name": "internal_hole",
+    "policy": "native4096",
+    "elapsed_seconds": 20.043686985998647,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C009",
+    "category": "2-rotation",
+    "name": "rotation_20",
+    "policy": "native4096",
+    "elapsed_seconds": 20.862816388998908,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C004",
+    "category": "1-shifts",
+    "name": "translation_0_-20",
+    "policy": "native4096",
+    "elapsed_seconds": 19.614947321999352,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "name": "factor_ten_units",
+    "policy": "native4096",
+    "elapsed_seconds": 14.069783647002623,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "scale_factor": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C013",
+    "category": "4-coverage",
+    "name": "cropped_anatomy",
+    "policy": "native4096",
+    "elapsed_seconds": 13.2324405679974,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "name": "rotation_5",
+    "policy": "native4096",
+    "elapsed_seconds": 79.09367226500035,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "name": "rotation_5",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 78.82561436299875,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C025",
+    "category": "8-scaling",
+    "name": "equivalent_units_control",
+    "policy": "native4096",
+    "elapsed_seconds": 18.346911810000165,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C032",
+    "category": "11-reconstruction",
+    "policy": "native4096",
+    "error": "AttributeError(\"'NoneType' object has no attribute 'get'\")"
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C023",
+    "category": "7-conversion",
+    "name": "wrong_HU_mapping",
+    "policy": "native4096",
+    "elapsed_seconds": 18.454025572998944,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C002",
+    "category": "1-shifts",
+    "name": "translation_-10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 18.616731525999057,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": -10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C031",
+    "category": "11-reconstruction",
+    "name": "regional_bias",
+    "policy": "native4096",
+    "elapsed_seconds": 17.868588789999194,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C029",
+    "category": "10-provenance",
+    "name": "CT_density_leak",
+    "policy": "native4096",
+    "elapsed_seconds": 19.325421680001455,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C033",
+    "category": "12-display",
+    "name": "window_level_trap",
+    "policy": "native4096",
+    "elapsed_seconds": 18.359197113997652,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C040",
+    "category": "capacity",
+    "name": "large_report_three_images",
+    "policy": "native4096",
+    "elapsed_seconds": 9.475401360999967,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C012",
+    "category": "3-orientation",
+    "name": "valid_LPS_RAS_conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 77.48885292900013,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C012",
+    "category": "3-orientation",
+    "name": "valid_LPS_RAS_conversion",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 78.37263082900245,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C026",
+    "category": "9-geometry",
+    "name": "spacing_changed_without_resampling",
+    "policy": "native4096",
+    "elapsed_seconds": 24.981596165001974,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C030",
+    "category": "10-provenance",
+    "name": "MRI_map_control",
+    "policy": "native4096",
+    "elapsed_seconds": 15.26027247899765,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C001",
+    "category": "1-shifts",
+    "name": "translation_10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 15.541771689997404,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C039",
+    "category": "15-repeatability",
+    "name": "repeat_translation_10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 13.997413684999628,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C006",
+    "category": "1-shifts",
+    "name": "translation_0_-40",
+    "policy": "native4096",
+    "elapsed_seconds": 16.678308149999793,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -40,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "name": "transform_direction",
+    "policy": "native4096",
+    "elapsed_seconds": 77.42429972500031,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "name": "transform_direction",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 77.29253252900162,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": false,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C038",
+    "category": "15-repeatability",
+    "name": "repeat_aligned_pair",
+    "policy": "native4096",
+    "elapsed_seconds": 15.601557704998413,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 1,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 1,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C005",
+    "category": "1-shifts",
+    "name": "translation_40_0",
+    "policy": "native4096",
+    "elapsed_seconds": 13.000701320001099,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 40,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C014",
+    "category": "4-coverage",
+    "name": "incomplete_map",
+    "policy": "native4096",
+    "elapsed_seconds": 17.12803713500034,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C010",
+    "category": "13-correct-control",
+    "name": "aligned_pair",
+    "policy": "native4096",
+    "elapsed_seconds": 16.017781047001336,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": 1,
+          "tolerance": 2,
+          "pass": true
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": 1,
+          "tolerance": 2,
+          "pass": true
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C011",
+    "category": "3-orientation",
+    "name": "array_flip_without_geometry_update",
+    "policy": "native4096",
+    "elapsed_seconds": 17.823878053000954,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C008",
+    "category": "2-rotation",
+    "name": "rotation_-10",
+    "policy": "native4096",
+    "elapsed_seconds": 23.034755962002237,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": true,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": -10,
+          "observed": 12,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C018",
+    "category": "6-pseudoCT",
+    "name": "false_bone",
+    "policy": "native4096",
+    "elapsed_seconds": 15.433572865000315,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C017",
+    "category": "5-segmentation",
+    "name": "mask_outside_body",
+    "policy": "native4096",
+    "elapsed_seconds": 12.415022867000516,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C034",
+    "category": "12-display",
+    "name": "colour_scale_trap",
+    "policy": "native4096",
+    "elapsed_seconds": 17.21607836700059,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C003",
+    "category": "1-shifts",
+    "name": "translation_0_20",
+    "policy": "native4096",
+    "elapsed_seconds": 24.555485426000814,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C027",
+    "category": "9-geometry",
+    "name": "wrong_origin",
+    "policy": "native4096",
+    "elapsed_seconds": 20.67751360600232,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C022",
+    "category": "7-conversion",
+    "name": "wrong_photon_energy",
+    "policy": "native4096",
+    "elapsed_seconds": 36.267388148000464,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C036",
+    "category": "14-insufficient",
+    "name": "screenshots_without_coefficients",
+    "policy": "native4096",
+    "elapsed_seconds": 5.82486063900069,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C015",
+    "category": "5-segmentation",
+    "name": "missing_bone_label",
+    "policy": "native4096",
+    "elapsed_seconds": 12.38066381000317,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C035",
+    "category": "13-correct-control",
+    "name": "normal_segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 17.327083716001653,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "name": "factor_ten_units",
+    "policy": "native4096-evaluator-retest",
+    "elapsed_seconds": 22.978768149001553,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "scale_factor": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen3vl-8b-thinking-q5",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "name": "transform_direction",
+    "policy": "native4096-evaluator-retest",
+    "elapsed_seconds": 38.29466228700039,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "required_translation_mm": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "name": "rotation_5",
+    "policy": "native4096-evaluator-retest",
+    "elapsed_seconds": 44.157491554000444,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 5,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "qwen35-9b-q4",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "name": "factor_ten_units",
+    "policy": "native4096-evaluator-retest",
+    "elapsed_seconds": 42.86522400100148,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "scale_factor": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "medgemma15-4b-q8",
+    "case_id": "C032",
+    "category": "11-reconstruction",
+    "name": "small_difference_control",
+    "policy": "native4096-evaluator-retest",
+    "elapsed_seconds": 23.843887330000143,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": 2,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C021",
+    "category": "6-pseudoCT",
+    "name": "slice_discontinuity",
+    "policy": "native4096",
+    "elapsed_seconds": 5.698994209000375,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C041",
+    "category": "tool-use",
+    "name": "measurement_tool_selection",
+    "policy": "native4096",
+    "elapsed_seconds": 2.1567757579978206,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C041",
+    "category": "tool-use",
+    "name": "measurement_tool_selection",
+    "policy": "budget2048rescue",
+    "elapsed_seconds": 2.0643274539979757,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": false,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "case_pass": false,
+      "tool_calls": []
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C016",
+    "category": "5-segmentation",
+    "name": "tissue_mislabel",
+    "policy": "native4096",
+    "elapsed_seconds": 2.1527303910006594,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C019",
+    "category": "6-pseudoCT",
+    "name": "missing_bone",
+    "policy": "native4096",
+    "elapsed_seconds": 3.3308138500033238,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C037",
+    "category": "14-insufficient",
+    "name": "alignment_without_geometry",
+    "policy": "native4096",
+    "elapsed_seconds": 2.750522931000887,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C020",
+    "category": "6-pseudoCT",
+    "name": "internal_hole",
+    "policy": "native4096",
+    "elapsed_seconds": 2.1649633269989863,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C009",
+    "category": "2-rotation",
+    "name": "rotation_20",
+    "policy": "native4096",
+    "elapsed_seconds": 3.0286536820021865,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 20,
+          "observed": 0,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C004",
+    "category": "1-shifts",
+    "name": "translation_0_-20",
+    "policy": "native4096",
+    "elapsed_seconds": 3.1877356149998377,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C024",
+    "category": "8-scaling",
+    "name": "factor_ten_units",
+    "policy": "native4096",
+    "elapsed_seconds": 2.664641003997531,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "scale_factor": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C013",
+    "category": "4-coverage",
+    "name": "cropped_anatomy",
+    "policy": "native4096",
+    "elapsed_seconds": 3.623488023000391,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C007",
+    "category": "2-rotation",
+    "name": "rotation_5",
+    "policy": "native4096",
+    "elapsed_seconds": 3.2980987849987287,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": 5,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C025",
+    "category": "8-scaling",
+    "name": "equivalent_units_control",
+    "policy": "native4096",
+    "elapsed_seconds": 2.779501506000088,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C032",
+    "category": "11-reconstruction",
+    "name": "small_difference_control",
+    "policy": "native4096",
+    "elapsed_seconds": 3.742378695998923,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": 2,
+          "observed": 2,
+          "tolerance": 0.1,
+          "pass": true
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C023",
+    "category": "7-conversion",
+    "name": "wrong_HU_mapping",
+    "policy": "native4096",
+    "elapsed_seconds": 2.163876328002516,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C002",
+    "category": "1-shifts",
+    "name": "translation_-10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 3.2831433689971163,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C031",
+    "category": "11-reconstruction",
+    "name": "regional_bias",
+    "policy": "native4096",
+    "elapsed_seconds": 3.104661599998508,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "mrac_vs_ctac_percent": {
+          "expected": -10,
+          "observed": 10,
+          "tolerance": 0.1,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C029",
+    "category": "10-provenance",
+    "name": "CT_density_leak",
+    "policy": "native4096",
+    "elapsed_seconds": 2.3228474909992656,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C033",
+    "category": "12-display",
+    "name": "window_level_trap",
+    "policy": "native4096",
+    "elapsed_seconds": 3.039020571999572,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C040",
+    "category": "capacity",
+    "name": "large_report_three_images",
+    "policy": "native4096",
+    "elapsed_seconds": 9.885385776000476,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C012",
+    "category": "3-orientation",
+    "name": "valid_LPS_RAS_conversion",
+    "policy": "native4096",
+    "elapsed_seconds": 3.322497066001233,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C026",
+    "category": "9-geometry",
+    "name": "spacing_changed_without_resampling",
+    "policy": "native4096",
+    "elapsed_seconds": 3.261146173997986,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C030",
+    "category": "10-provenance",
+    "name": "MRI_map_control",
+    "policy": "native4096",
+    "elapsed_seconds": 2.404327263000596,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C001",
+    "category": "1-shifts",
+    "name": "translation_10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 3.298084343001392,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C039",
+    "category": "15-repeatability",
+    "name": "repeat_translation_10_0",
+    "policy": "native4096",
+    "elapsed_seconds": 3.220830685997498,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C006",
+    "category": "1-shifts",
+    "name": "translation_0_-40",
+    "policy": "native4096",
+    "elapsed_seconds": 3.2068952469999203,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": -40,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C028",
+    "category": "9-geometry",
+    "name": "transform_direction",
+    "policy": "native4096",
+    "elapsed_seconds": 2.543179158001294,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {
+        "required_translation_mm": {
+          "expected": -10,
+          "observed": [
+            10,
+            0,
+            0
+          ],
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C038",
+    "category": "15-repeatability",
+    "name": "repeat_aligned_pair",
+    "policy": "native4096",
+    "elapsed_seconds": 3.300457571000152,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C005",
+    "category": "1-shifts",
+    "name": "translation_40_0",
+    "policy": "native4096",
+    "elapsed_seconds": 3.211742432999017,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 40,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C014",
+    "category": "4-coverage",
+    "name": "incomplete_map",
+    "policy": "native4096",
+    "elapsed_seconds": 3.5830035990002216,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C010",
+    "category": "13-correct-control",
+    "name": "aligned_pair",
+    "policy": "native4096",
+    "elapsed_seconds": 3.3331249600014417,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "rotation_deg": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C011",
+    "category": "3-orientation",
+    "name": "array_flip_without_geometry_update",
+    "policy": "native4096",
+    "elapsed_seconds": 3.60747382900081,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C008",
+    "category": "2-rotation",
+    "name": "rotation_-10",
+    "policy": "native4096",
+    "elapsed_seconds": 3.326293740999972,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "rotation_deg": {
+          "expected": -10,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C018",
+    "category": "6-pseudoCT",
+    "name": "false_bone",
+    "policy": "native4096",
+    "elapsed_seconds": 3.5397286900006293,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C017",
+    "category": "5-segmentation",
+    "name": "mask_outside_body",
+    "policy": "native4096",
+    "elapsed_seconds": 3.4370998189988313,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C034",
+    "category": "12-display",
+    "name": "colour_scale_trap",
+    "policy": "native4096",
+    "elapsed_seconds": 2.8518850969994674,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C003",
+    "category": "1-shifts",
+    "name": "translation_0_20",
+    "policy": "native4096",
+    "elapsed_seconds": 3.3390449899998202,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {
+        "dx_mm": {
+          "expected": 0,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        },
+        "dy_mm": {
+          "expected": 20,
+          "observed": null,
+          "tolerance": 2,
+          "pass": false
+        }
+      },
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C027",
+    "category": "9-geometry",
+    "name": "wrong_origin",
+    "policy": "native4096",
+    "elapsed_seconds": 3.251989672000491,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C022",
+    "category": "7-conversion",
+    "name": "wrong_photon_energy",
+    "policy": "native4096",
+    "elapsed_seconds": 2.8713916199994856,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C036",
+    "category": "14-insufficient",
+    "name": "screenshots_without_coefficients",
+    "policy": "native4096",
+    "elapsed_seconds": 2.3543270439986372,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C015",
+    "category": "5-segmentation",
+    "name": "missing_bone_label",
+    "policy": "native4096",
+    "elapsed_seconds": 2.1591949130015564,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": false,
+      "code_correct": false,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": false
+    }
+  },
+  {
+    "model": "internvl35-8b-q4",
+    "case_id": "C035",
+    "category": "13-correct-control",
+    "name": "normal_segmentation",
+    "policy": "native4096",
+    "elapsed_seconds": 2.3525574560007954,
+    "response": "[omitted]",
+    "grade": {
+      "parseable": true,
+      "finished": true,
+      "status_correct": true,
+      "code_correct": true,
+      "quantitative": {},
+      "answer": "[omitted]",
+      "case_pass": true
+    }
+  }
+]

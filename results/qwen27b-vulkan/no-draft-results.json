@@ -1,0 +1,40 @@
+[
+  {
+    "case": "coding-no-draft",
+    "elapsed_s": 14.438,
+    "completion_tokens": 238,
+    "end_to_end_tokens_per_s": 16.484,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 42,
+      "prompt_ms": 685.077,
+      "prompt_per_token_ms": 16.311357142857144,
+      "prompt_per_second": 61.306977171909146,
+      "predicted_n": 238,
+      "predicted_ms": 13524.385,
+      "predicted_per_token_ms": 57.06491561181435,
+      "predicted_per_second": 17.523902195922403
+    },
+    "finish_reason": "stop",
+    "response": "[omitted]"
+  },
+  {
+    "case": "arithmetic-no-draft",
+    "elapsed_s": 1.3,
+    "completion_tokens": 10,
+    "end_to_end_tokens_per_s": 7.693,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 44,
+      "prompt_ms": 707.553,
+      "prompt_per_token_ms": 16.08075,
+      "prompt_per_second": 62.18615425275562,
+      "predicted_n": 10,
+      "predicted_ms": 520.629,
+      "predicted_per_token_ms": 57.84766666666667,
+      "predicted_per_second": 17.28678195029474
+    },
+    "finish_reason": "stop",
+    "response": "[omitted]"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-07",
+  "model": "Qwen3.8-Flash-Next IQ2_XS",
+  "runtime": "Strata0.1.56 SYCL, MTPspec2, INT8KV",
+  "rows": [
+    {
+      "context": "8K (8,192)",
+      "variant": "unchanged",
+      "short_output_tps": "61.1",
+      "near_full_input": "7164",
+      "near_full_output_tps": "53.8",
+      "input_seconds": "6.7",
+      "sampled_VRAM_GiB": "21.05 / 21.28",
+      "cgroup_peak_RAM_GiB_including_cache": "8.87",
+      "swap_GiB": "0.000",
+      "status": "passed"
+    },
+    {
+      "context": "16K (16,384)",
+      "variant": "unchanged",
+      "short_output_tps": "61.1",
+      "near_full_input": "15324",
+      "near_full_output_tps": "59.6",
+      "input_seconds": "14.6",
+      "sampled_VRAM_GiB": "21.10 / 21.35",
+      "cgroup_peak_RAM_GiB_including_cache": "14.57",
+      "swap_GiB": "0.000",
+      "status": "passed"
+    },
+    {
+      "context": "32K (32,768)",
+      "variant": "unchanged",
+      "short_output_tps": "61.1",
+      "near_full_input": "31724",
+      "near_full_output_tps": "56.1",
+      "input_seconds": "30.2",
+      "sampled_VRAM_GiB": "21.22 / 21.48",
+      "cgroup_peak_RAM_GiB_including_cache": "9.61",
+      "swap_GiB": "0.000",
+      "status": "passed"
+    },
+    {
+      "context": "64K (65,536)",
+      "variant": "unchanged",
+      "short_output_tps": "61.1",
+      "near_full_input": "64484",
+      "near_full_output_tps": "51.0",
+      "input_seconds": "62.3",
+      "sampled_VRAM_GiB": "21.44 / 21.75",
+      "cgroup_peak_RAM_GiB_including_cache": "16.41",
+      "swap_GiB": "0.000",
+      "status": "passed"
+    },
+    {
+      "context": "128K (131,072)",
+      "variant": "unchanged",
+      "short_output_tps": "61.1",
+      "near_full_input": "130044",
+      "near_full_output_tps": "53.1",
+      "input_seconds": "130.6",
+      "sampled_VRAM_GiB": "21.89 / 22.27",
+      "cgroup_peak_RAM_GiB_including_cache": "9.47",
+      "swap_GiB": "0.000",
+      "status": "passed"
+    },
+    {
+      "context": "192K (196,608)",
+      "variant": "unchanged",
+      "short_output_tps": "61.1",
+      "near_full_input": "195564",
+      "near_full_output_tps": "51.6",
+      "input_seconds": "199.4",
+      "sampled_VRAM_GiB": "22.30 / 22.75",
+      "cgroup_peak_RAM_GiB_including_cache": "11.84",
+      "swap_GiB": "0.000",
+      "status": "passed"
+    },
+    {
+      "context": "256K (262,144)",
+      "variant": "trim-stage-weights",
+      "short_output_tps": "60.5",
+      "near_full_input": "261084",
+      "near_full_output_tps": "50.0",
+      "input_seconds": "273.2",
+      "sampled_VRAM_GiB": "22.04 / 22.60",
+      "cgroup_peak_RAM_GiB_including_cache": "11.19",
+      "swap_GiB": "0.000",
+      "status": "passed"
+    },
+    {
+      "context": "264K (270,336)",
+      "variant": "trim-stage-weights",
+      "short_output_tps": "60.5",
+      "near_full_input": "269284",
+      "near_full_output_tps": "48.0",
+      "input_seconds": "285.1",
+      "sampled_VRAM_GiB": "22.10 / 22.67",
+      "cgroup_peak_RAM_GiB_including_cache": "9.41",
+      "swap_GiB": "0.000",
+      "status": "passed"
+    }
+  ],
+  "limitations": "512 output tokens; near-full workload one sample/context;264K beyond declared256K; capacity/speed only, not accuracy; short rates2 samples"
+}

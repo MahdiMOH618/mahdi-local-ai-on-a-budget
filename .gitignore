@@ -1,0 +1,9 @@
+posts/
+followups/
+inventory-all-local-only.*
+preparation-status.json
+publication-state.json
+followup-state.json
+.state/
+__pycache__/
+*.pyc

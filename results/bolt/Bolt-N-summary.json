@@ -1,0 +1,114 @@
+{
+  "label": "Bolt-N",
+  "requests": 65,
+  "scores": 27,
+  "categories": {
+    "T3": {
+      "passed": 6,
+      "total": 6
+    },
+    "T4": {
+      "passed": 10,
+      "total": 10
+    },
+    "T5": {
+      "passed": 9,
+      "total": 10
+    },
+    "T6": {
+      "passed": 0,
+      "total": 0
+    },
+    "T7": {
+      "passed": 0,
+      "total": 0
+    },
+    "JSON": {
+      "passed": 9,
+      "total": 10
+    }
+  },
+  "speed": {
+    "1000": {},
+    "32000": {},
+    "64000": {},
+    "120000": {}
+  },
+  "retrieval": {
+    "matching_haystack": {
+      "raw_facts": 5,
+      "normalized_facts": 5,
+      "fact_total": 5,
+      "raw_multi_hop": 1,
+      "normalized_multi_hop": 1,
+      "cases": 1,
+      "raw_cases_passed": 1,
+      "normalized_cases_passed": 1,
+      "detail": [
+        {
+          "id": "retrieval-0",
+          "rep": 0,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        }
+      ]
+    },
+    "all_historical_haystacks": {
+      "raw_facts": 5,
+      "normalized_facts": 5,
+      "fact_total": 5,
+      "raw_multi_hop": 1,
+      "normalized_multi_hop": 1,
+      "cases": 1,
+      "raw_cases_passed": 1,
+      "normalized_cases_passed": 1,
+      "detail": [
+        {
+          "id": "retrieval-0",
+          "rep": 0,
+          "answer": "[omitted]",
+          "raw": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          },
+          "normalized": {
+            "fact_1": true,
+            "fact_2": true,
+            "fact_3": true,
+            "fact_4": true,
+            "fact_5": true,
+            "multi_hop": true
+          }
+        }
+      ]
+    }
+  },
+  "resource_peaks": {
+    "VRAM_GiB": {
+      "0": 11.090007781982422,
+      "1": 13.02072525024414
+    },
+    "used_RAM_GiB": 15.410022735595703,
+    "cpu_C": 68.0,
+    "gpu_C": 66.0
+  }
+}
