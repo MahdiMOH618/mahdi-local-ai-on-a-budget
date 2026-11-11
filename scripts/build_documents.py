@@ -108,5 +108,7 @@ for p in [R/'README.md',R/'hardware.md',R/'methodology.md']:
     t=p.read_text()
     for a,b in [('two24GB','two 24GB'),('and64GB','and 64GB'),('and16GB','and 16GB'),('The1K','The 1K'),('at131072','at 131072'),('at1K','at 1K'),('at8K','at 8K'),('and256K','and 256K'),('264K exceeds','264K exceeds'),('Only20%','Only 20%'),('about51','about 51'),('produced28','produced 28'),('was1.9','was 1.9'),('from8.78','from 8.78'),('to12.04','to 12.04'),('a37%','a 37%'),('with62.7','with 62.7'),('ranged8.80','ranged 8.80'),('only20%','only 20%'),('at8K','at 8K'),('varied48','varied 48'),('at about26K','at about 26K'),('were64.3','were 64.3'),('at1K','at 1K'),('has3','has 3'),('has one1K','has one 1K'),('Bolt-N1K','Bolt-N 1K'),('CC BY4.0','CC BY 4.0')]:t=t.replace(a,b)
     p.write_text(t)
+from copyedit_markdown import format_repository
+format_repository(R)
 print('Rendered README, methodology, hardware and summary-data.')
 if __name__=='__main__':pass

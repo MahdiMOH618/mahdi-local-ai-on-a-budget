@@ -12,18 +12,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 12109,
-      "sha256": "4da355143ef4813d2e9f0a006f0cf17b67a708e213bfe899ff2887e93621342e"
+      "bytes": 13120,
+      "sha256": "4ec4b1e22255edf010cf7e99b372dea2c0a847ca683d2b4ac8a3888337f38a13"
     },
     {
       "path": "followups.md",
-      "bytes": 1289,
-      "sha256": "38226d4dfc7e2936d342845d96e9060039c7f09706410b87530ed6900d07f98a"
+      "bytes": 1298,
+      "sha256": "b5be2ed8e128b187c6d42b06b078b588a4230a722f181b9c973ce67a8e1c9129"
     },
     {
       "path": "hardware.md",
-      "bytes": 1429,
-      "sha256": "8b0c1a396103d9664ab954c2503eea204671f68a7ad240d3e02cb86a4e727f80"
+      "bytes": 1464,
+      "sha256": "aacf8ff6d03c90f6002d21bbdcd3b03f2a456f8a7ecabd74b8a5c5de0d855fdb"
     },
     {
       "path": "inventory.json",
@@ -32,13 +32,18 @@
     },
     {
       "path": "inventory.md",
-      "bytes": 4783,
-      "sha256": "034e23894b2c27a5a687b4ad451a0e8da712c39dbee89f4c4e9f47b2d546c9b3"
+      "bytes": 4899,
+      "sha256": "ab3dfd1336453af4194df96a7e9b614f4b9b4af6cedaf99fd2d3e10691565565"
     },
     {
       "path": "methodology.md",
-      "bytes": 4746,
-      "sha256": "30cc7d71b340f83e2b555c0258884942efc39330ffd0b8b0bdd571dafa60e81b"
+      "bytes": 4813,
+      "sha256": "06f92d0a8b4dd56d6b6af10293707aa06d736d28953c8dfa61d43a1b6d58f4ea"
+    },
+    {
+      "path": "privacy-audit.json",
+      "bytes": 2526,
+      "sha256": "5578bb57691d98cbf23c53fca4939ed8c4e7f02bae38a2236aa8f6a8936cf3d6"
     },
     {
       "path": "results/bolt/Bolt-N-identity.json",
@@ -412,8 +417,8 @@
     },
     {
       "path": "scripts/README.md",
-      "bytes": 1641,
-      "sha256": "538b166b3e619981607156da08b9e66705c327c39ba525f3839bf912cbf1635d"
+      "bytes": 1780,
+      "sha256": "4708e44745e569b68bc1f8d39dc37a53a9c2da3bb45916562c3f9e3169e626b8"
     },
     {
       "path": "scripts/analyze_results.py",
@@ -427,8 +432,13 @@
     },
     {
       "path": "scripts/build_documents.py",
-      "bytes": 18330,
-      "sha256": "e9c98a0ccb3dc9570a5ae941d3b9fc55409286780c2901dc363959040af868ec"
+      "bytes": 18399,
+      "sha256": "e9838256c2097fba1fe7e1ad727705c155ecc87fa07b76e41cdda7c4b2837090"
+    },
+    {
+      "path": "scripts/copyedit_markdown.py",
+      "bytes": 5826,
+      "sha256": "151df5436f0834170697752092e9601bfafad4639e3d7579e6ae076fc10bd1f2"
     },
     {
       "path": "scripts/followups.py",
@@ -462,8 +472,8 @@
     },
     {
       "path": "scrub-report.json",
-      "bytes": 857,
-      "sha256": "b82aaf44df570a03b977b1a20368991e04ef5134c2f1b44a467a18f9ce93796c"
+      "bytes": 1028,
+      "sha256": "0a4911ec63d8faea54be206ff238a23360b9655eb46460a6ffe4274eee964199"
     },
     {
       "path": "source-manifest.json",

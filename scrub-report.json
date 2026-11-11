@@ -1,6 +1,6 @@
 {
-  "scope": "Staged public tree plus separate working-folder scan; ignored local drafts/state not uploaded",
-  "staged_files_scanned": 96,
+  "scope": "All live baseline files and the complete final public tree, including names; ignored local backups/drafts are excluded",
+  "staged_files_scanned": 98,
   "identifier_credential_pattern_matches": [],
   "raw_generated_text_policy": "Generated prose/reasoning/messages/images conservatively omitted; numerical scores retained",
   "keyword_review": "token matches are generation/usage metrics; key matches are JSON/program structure; password and @ occur in redaction rules, not credential values",
@@ -10,5 +10,8 @@
   "model_weights_included": false,
   "scope_limits": "Owner-limited completed-run release; a historical model hash gap remains explicit",
   "followup_fixture_test_passed": true,
-  "real_read_only_GitHub_poll_passed": true
+  "real_read_only_GitHub_poll_passed": true,
+  "privacy_recheck_report": "privacy-audit.json",
+  "reviewed_code_false_positive_count": 4,
+  "confirmed_private_data_or_credential_matches": 0
 }

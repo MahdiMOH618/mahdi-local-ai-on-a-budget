@@ -1,0 +1,64 @@
+{
+  "scope": "Every file in the verified live baseline and final public tree, including file names; ignored local backups, drafts and Git metadata are excluded.",
+  "baseline_commit": "46bb0351b60fa08a258e9ebe46392c39fdf385eb",
+  "baseline_matches_verified_live_tree": true,
+  "before": {
+    "files_scanned": 96,
+    "raw_pattern_matches_by_category": {
+      "private_linux_account": 0,
+      "absolute_home_path": 0,
+      "private_hostname": 0,
+      "email_address": 0,
+      "mac_address": 0,
+      "uuid": 0,
+      "credential_value": 0,
+      "private_dns_name": 3,
+      "ipv4_address": 0,
+      "ipv6_address": 1
+    },
+    "reviewed_code_false_positives": 4,
+    "confirmed_private_data_or_credential_matches": 0,
+    "keyword_occurrences_for_review": {
+      "token": 4669,
+      "key": 77,
+      "password": 2,
+      "secret": 0,
+      "authorization": 2,
+      "bearer": 1
+    }
+  },
+  "after": {
+    "files_scanned": 98,
+    "raw_pattern_matches_by_category": {
+      "private_linux_account": 0,
+      "absolute_home_path": 0,
+      "private_hostname": 0,
+      "email_address": 0,
+      "mac_address": 0,
+      "uuid": 0,
+      "credential_value": 0,
+      "private_dns_name": 3,
+      "ipv4_address": 0,
+      "ipv6_address": 1
+    },
+    "reviewed_code_false_positives": 4,
+    "confirmed_private_data_or_credential_matches": 0,
+    "keyword_occurrences_for_review": {
+      "token": 4684,
+      "key": 83,
+      "password": 5,
+      "secret": 3,
+      "authorization": 5,
+      "bearer": 4
+    }
+  },
+  "keyword_review": "Token matches describe generation metrics, limits and tokenizer code. Key matches describe JSON/program structure or redaction rules. Password and secret are redaction categories, not values. Authorization and Bearer appear in the generic client header constructed from a user-provided environment variable. No credentials are embedded.",
+  "reviewed_code_false_positive_details": [
+    "Three standard Python home-directory calls matched the private-DNS pattern; they are standard Python API calls, not hostnames.",
+    "One Python slice using a double colon matched the IPv6 pattern; it is code syntax, not a network address."
+  ],
+  "identifiers_stored_in_audit": false,
+  "limitations": "Pattern scan plus review of static scripts and data fields; public project/model names, upstream URLs, commit/model hashes and relative source paths are retained. No scanner proves absence of all possible sensitive data.",
+  "benchmark_exports_added": 0,
+  "failed_or_partial_runs_added": 0
+}

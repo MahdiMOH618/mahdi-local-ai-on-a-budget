@@ -5,6 +5,7 @@
 - `generate_coding_fixtures.py`: original synthetic six-project/test generator, with source digest in `original-generator-provenance.json`.
 - `freeze_prompt_inputs_reference.py`: historical prompt sizing/retrieval generator. Home references are scrubbed. It requires local tokenizer/corpus assets and the original fixture context, not redistributed here. Do not run it expecting a self-contained benchmark installation.
 - `prepare_archive.py` / `build_documents.py`: deterministic export/write-up helpers for the owner’s retained artifacts; source files are read-only.
+- `copyedit_markdown.py`: keeps generated Markdown readable while preserving code, paths and measurements; called by `build_documents.py`.
 - `followups.py`: read-only GitHub collection and local reply drafts. It contains no posting path.
 - `manage_followups.py`: manages only this publication’s marked user cron entry, preserving unrelated entries.
 
