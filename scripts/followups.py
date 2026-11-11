@@ -39,7 +39,7 @@ def collect(state):
     for a in pages(gh_get('repos/'+repo+'/issues/comments?'+urllib.parse.urlencode({'since':since,'per_page':100}))):
         items.append({'kind':'comment','id':a['id'],'updated':a['updated_at'],'title':'Repository discussion/comment','body':a['body'],'author':a['user']['login'],'url':a['html_url']})
     for a in pages(gh_get('repos/'+repo+'/stargazers?per_page=100',['-H','Accept: application/vnd.github.star+json'])):
-        if a['starred_at']>since:items.append({'kind':'star','id':a['user']['id'],'updated':a['starred_at'],'title':'New star','body':'','author':a['user']['login'],'url':a['user']['html_url']})
+        if datetime.fromisoformat(a['starred_at'].replace('Z','+00:00'))>datetime.fromisoformat(since.replace('Z','+00:00')):items.append({'kind':'star','id':a['user']['id'],'updated':a['starred_at'],'title':'New star','body':'','author':a['user']['login'],'url':a['user']['html_url']})
     seen=set(state.get('seen',[]));out=[]
     for a in items:
         identity=str(a['kind'])+':'+str(a['id'])+':'+a['updated']
@@ -71,9 +71,10 @@ def main():
         if state.get('paused'):return
         due=datetime.fromisoformat(state['next_due'])
         if not args.force and now<due:return
+        checked_at=datetime.now(timezone.utc)
         items,seen=collect(state);text,drafts=render(items,state['repository'],now)
         name=now.strftime('%Y-%m-%d');(root/(name+'.md')).write_text(text);(root/(name+'-drafts.json')).write_text(json.dumps(drafts,indent=2)+'\n')
-        state.update(last_checked=datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),next_due=(now+timedelta(days=3)).replace(hour=20,minute=0,second=0,microsecond=0).isoformat(),seen=seen)
+        state.update(last_checked=checked_at.isoformat().replace('+00:00','Z'),next_due=(now+timedelta(days=3)).replace(hour=20,minute=0,second=0,microsecond=0).isoformat(),seen=seen)
         STATE.write_text(json.dumps(state,indent=2)+'\n')
         if items and shutil.which('notify-send'):
             env=dict(os.environ);env.setdefault('DBUS_SESSION_BUS_ADDRESS','unix:path=/run/user/'+str(os.getuid())+'/bus')

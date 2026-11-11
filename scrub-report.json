@@ -1,6 +1,6 @@
 {
   "scope": "Staged public tree plus separate working-folder scan; ignored local drafts/state not uploaded",
-  "staged_files_scanned": 94,
+  "staged_files_scanned": 96,
   "identifier_credential_pattern_matches": [],
   "raw_generated_text_policy": "Generated prose/reasoning/messages/images conservatively omitted; numerical scores retained",
   "keyword_review": "token matches are generation/usage metrics; key matches are JSON/program structure; password and @ occur in redaction rules, not credential values",
@@ -8,5 +8,7 @@
   "private_chat_history_browser_credentials_copied": false,
   "source_artifacts_modified": false,
   "model_weights_included": false,
-  "scope_limits": "Owner-limited completed-run release; a historical model hash gap remains explicit"
+  "scope_limits": "Owner-limited completed-run release; a historical model hash gap remains explicit",
+  "followup_fixture_test_passed": true,
+  "real_read_only_GitHub_poll_passed": true
 }

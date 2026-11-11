@@ -432,8 +432,8 @@
     },
     {
       "path": "scripts/followups.py",
-      "bytes": 7213,
-      "sha256": "79c456860066f30b8dbc0cbaeb0fdcba8fe32478a2909066ce26bac0869948bb"
+      "bytes": 7335,
+      "sha256": "56617c2547b5e7db9a4690a95b97406acc7462851346c0cc7f2acc04353848d9"
     },
     {
       "path": "scripts/freeze_prompt_inputs_reference.py",
@@ -462,8 +462,8 @@
     },
     {
       "path": "scrub-report.json",
-      "bytes": 772,
-      "sha256": "8af0be62ccb6d9bdd2a6bcb7a8b0b38ae0a9fc3cb738c729c5c376bbf77195fd"
+      "bytes": 857,
+      "sha256": "b82aaf44df570a03b977b1a20368991e04ef5134c2f1b44a467a18f9ce93796c"
     },
     {
       "path": "source-manifest.json",
